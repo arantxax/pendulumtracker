@@ -8,6 +8,7 @@
 #include "opencv2/videoio.hpp" 
 #include "opencv2/imgcodecs.hpp"
 #include "opencv2/opencv.hpp"
+#include "opencv2/core.hpp"
 
 #include <iostream> 
 #include <iomanip>
@@ -27,6 +28,7 @@ int main(){
       cout <<"Error opening video strem or file"<< endl; 
       return -1; 
     } 
+
   //Background Subtraction Method 
   String method = "mog2"; 
   Ptr<BackgroundSubtractor> model; 
@@ -53,16 +55,15 @@ int main(){
   
   //Take first frame of the video 
   capture >> frame; 
-  cout <<"First frame"<< endl;
   
   //Setup initial location of windows for tracking 
   Rect track_window(50, 300, 50, 50); // simply hardcoded the value 
 
   //set up the ROI for Tracking 
   roi = frame(track_window);
-  //imshow ("first roi", roi);
   cvtColor(roi, hsv_roi, COLOR_BGR2HSV); 
-  inRange(hsv_roi, Scalar(0, 60, 32), Scalar(180, 255, 255), mask); 
+  inRange(hsv_roi, Scalar(0, 60, 32), Scalar(180, 255, 255), mask);
+  imshow ("initial roi", roi);
   
   float range_[] = { 0, 180 }; 
   const float* range[] = {range_}; 
@@ -92,7 +93,7 @@ int main(){
       model->apply(frame, foregroundMask, doUpdateModel ? -1 : 0); 
       
       // show resized frame 
-      //imshow("frame", frame); 
+      imshow("frame", frame);
       // show foreground image and mask (with optional smoothing) 
       if (doSmoothMask) 
 	{ 
@@ -104,84 +105,93 @@ int main(){
       foreground = Scalar::all(0); 
       frame.copyTo(foreground, foregroundMask); 
       
-      //imshow("foregroundMask", foregroundMask); 
-      //imshow("foregroundImage", foreground); 
-      
+      imshow("foregroundMask", foregroundMask);
+      imshow("foregroundImage", foreground);
+    
       // show background image 
       model->getBackgroundImage(background); 
-      if (!background.empty()) 
-	//imshow("mean background image", background);
-      
+      if (!background.empty()) {
+	imshow("mean background image", background);
+      }
       cvtColor(foreground, hsv, COLOR_BGR2HSV); 
       calcBackProject(&hsv, 1, channels, roi_hist, dst, range); 
       
       //apply meanshift to get the new location 
       meanShift(dst, track_window, term_crit); //Finds an object on a back projection image
-      //imshow("dst", dst);
+      imshow("dst", dst);
       
       // get track_window position// little reminder: Mat( 50, 50, CV_8UC3)
       int xmin = track_window.x;
       int ymin = track_window.y;
       int w = track_window.width;
       int h=track_window.height;
+      cout << "xmin:" << xmin << endl;
 
       //ROI updated
       roi = foreground(track_window);   
-      //imshow("New ROI", roi);
+      imshow("New ROI", roi);
 
       // Draw it on image 
-      rectangle(foreground, track_window, 255, 2); 
-      //imshow("foreground with tracker", foreground);
+      rectangle(foreground, track_window, Scalar(0,240,255), 2); 
+      imshow("foreground with tracker", foreground);
       
       ///Start Moments
       Mat canny_output;
-      int thresh = 10; 
+      int thresh = 10;
+      
       //Convert image to gray and blur it (again)
       cvtColor(roi,canny_output,COLOR_BGR2GRAY);
       blur(canny_output, canny_output,Size(3,3));
-      //imshow("blurred New ROI", canny_output);
+      imshow("blurred New ROI", canny_output);
       
       /// Detect edges using canny 
-      Canny( roi, canny_output, thresh, thresh*2, 3 );
-      //imshow("canny-roi", canny_output);
+      Canny(roi, canny_output, thresh, thresh*2, 3 );
       
       /// Find contours 
       vector<vector<Point>> contours;
       vector<Vec4i> hierarchy;
       findContours( canny_output, contours, hierarchy, RETR_TREE, CHAIN_APPROX_SIMPLE,Point(0,0));
-      //imshow("contours-ROI",canny_output);    
+      imshow("contoursROI",canny_output);
             
       // Get the centroid 1th-moments/0th-moments
       Moments m=moments(canny_output,true);
-      //cout << canny_output.x << "\n";
-      //cout << canny_output.y << "\n";
+      //cout << "canny_output.x"<< canny_output.x << "\n";
+      //cout << "canny_output.y" << canny_output.y << "\n";
                   
       Point p;
       if(m.m00!=0){
-	cout << "AQUUUUIIII!" << endl;
 	int x = (int) m.m10/m.m00 + xmin;
 	int y = (int) m.m01/m.m00 + ymin;
-  //cout << x << endl;
-  //cout << y << endl;
 	p = Point(x,y);
-	//avoid division by zero
-	//p((double)(m.m10 / m.m00), (double)(m.m01 / m.m00) );
+		//p((double)(m.m10 / m.m00), (double)(m.m01 / m.m00) );
       }
       else{
-	//cout << "\n";
-	p = Point(0,0);
+	cout << "\n";
+	p = Point(0,0);//avoid division by zero
       }
       
-      cout << "coordinates (cx,cy)" << p <<endl;
-            
+      cout << "coordinates (xc,yc)" << p <<endl;
+      /*
+      //Begin Physics
+      int x_backup=0;
+      time_t start;
+      
+      for(;;){
+	int d=x-x_backup;
+	time_t end;
+	int dt=end-start;
+	int x_backup=x;
+	cout << "displacement:" << d << endl;
+      }
+      */
       /// Create Window 
       //const char* moments_window = "Moments"; 
       //namedWindow( moments_window ); 
       //imshow("moments_window", canny_output ); 
 
       //show the image with a point mark at the centroid
-      circle(foreground,p,5,Scalar(128,0,0),-1); 
-      imshow("Center", foreground); 
+      circle(foreground,p,5,Scalar(0,240,255),-1); //BGR
+      imshow("Center", foreground);
       
       int keyboard = waitKey(30); 
       if (keyboard == 'q' || keyboard == 27) 

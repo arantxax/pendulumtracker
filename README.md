@@ -7,4 +7,5 @@ What I got so far:
 1. Capture the frames (yay again) from the video called "20190829_150101.mp4";
 2. How to detect movement: background subtraction looks better than absdiff;
 3. How to track movement: meanshift has simple and good features to that - I can refine this later;
-4. How to identify sphere's centroid: moments can normalize a polygon's position by the area (m01/m00).
+4. How to identify sphere's centroid: moments can normalize a polygon's position by the area (m01/m00);
+5. How to calculate velocity: using the Physics law v=dx/dt, I need to get dx using a backup-loop and dt using fps conversion;

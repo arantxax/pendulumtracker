@@ -74,15 +74,14 @@ int main(){
   normalize(roi_hist, roi_hist, 0, 255, NORM_MINMAX); 
   //Setup the termination criteria, either 100 iteraction or move by at least 1 pt
   TermCriteria term_crit(TermCriteria::EPS | TermCriteria::COUNT, 100, 1.0); 
-  
+
   //Loop over all frames 
   for (;;) 
-    { 
+    {
       // prepare input frame 
       Mat hsv, dst; 
       Mat frame, foregroundMask, foreground, background; 
       capture >> frame;
-      Mat bkp_frame = frame; 
       if (frame.empty())//end of capture          
 	break;
 	  
@@ -94,11 +93,12 @@ int main(){
       
       // show resized frame 
       imshow("frame", frame);
+      
       // show foreground image and mask (with optional smoothing) 
       if (doSmoothMask) 
 	{ 
 	  GaussianBlur(foregroundMask, foregroundMask, Size(11, 11), 3.5, 3.5); 
-	  threshold(foregroundMask, foregroundMask, 10, 255, THRESH_BINARY); 
+	  threshold(foregroundMask, foregroundMask, 10, 255, THRESH_BINARY);
 	} 
       if (foreground.empty()) 
 	foreground.create(scaledSize, frame.type()); 
@@ -121,10 +121,10 @@ int main(){
       imshow("dst", dst);
       
       // get track_window position// little reminder: Mat( 50, 50, CV_8UC3)
-      int xmin = track_window.x;
-      int ymin = track_window.y;
-      int w = track_window.width;
-      int h=track_window.height;
+      double xmin = track_window.x;
+      double ymin = track_window.y;
+      double w = track_window.width;
+      double h = track_window.height;
       cout << "xmin:" << xmin << endl;
 
       //ROI updated
@@ -158,10 +158,15 @@ int main(){
       //cout << "canny_output.x"<< canny_output.x << "\n";
       //cout << "canny_output.y" << canny_output.y << "\n";
                   
+      //Get centroid considering the ROI's coordinates
       Point p;
+      double cx, cy, x, y;
+      
       if(m.m00!=0){
-	int x = (int) m.m10/m.m00 + xmin;
-	int y = (int) m.m01/m.m00 + ymin;
+	cx = m.m10/m.m00;
+	cy = m.m01/m.m00;
+	x = cx + xmin;
+	y =  cy + ymin;
 	p = Point(x,y);
 		//p((double)(m.m10 / m.m00), (double)(m.m01 / m.m00) );
       }
@@ -170,20 +175,35 @@ int main(){
 	p = Point(0,0);//avoid division by zero
       }
       
-      cout << "coordinates (xc,yc)" << p <<endl;
-      /*
+      cout << "coordinates (x,y)" << p <<endl;
+      
       //Begin Physics
-      int x_backup=0;
+
+      //Initial conditions
+      double x0=0;
       time_t start;
       
-      for(;;){
-	int d=x-x_backup;
-	time_t end;
-	int dt=end-start;
-	int x_backup=x;
-	cout << "displacement:" << d << endl;
-      }
-      */
+      //displacement and time elapsed
+      double dx = x - x0;
+      time_t end;
+      double dt = difftime(end,start);
+      cout << "displacement:" << dx << endl;
+      cout << "time elapsed:" << dt << endl;
+      double v = dx/dt;
+      cout << "velocity" << v << endl;
+
+      x0=x;
+
+      /*vector<double> x;
+	int nFrames = capture.get(CAP_PROP_FRAME_COUNT);
+	x0=0;
+	for(int i=0; i<nFrames; i++){
+	double d = x-x0;
+	v=d/dt;
+	x0=x;
+	}
+       */
+             
       /// Create Window 
       //const char* moments_window = "Moments"; 
       //namedWindow( moments_window ); 

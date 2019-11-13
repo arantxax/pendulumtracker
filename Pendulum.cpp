@@ -159,8 +159,14 @@ int main(){
       //cout << "canny_output.y" << canny_output.y << "\n";
                   
       //Get centroid considering the ROI's coordinates
+      //int nFrames = capture.get(CAP_PROP_FRAME_COUNT);
+      //vector<double> cx[i];
+      //vector<double> cy[i];
+      //vector<double> x[i];
+      //vector<double> y[i];
       Point p;
-      double cx, cy, x, y;
+
+	//for(int i=0; i<nFrames; i++){} //considering
       
       if(m.m00!=0){
 	cx = m.m10/m.m00;
@@ -176,33 +182,33 @@ int main(){
       }
       
       cout << "coordinates (x,y)" << p <<endl;
-      
-      //Begin Physics
+  
+/*    
+      //Begin Physics //midpoint or backwards?
+      //Declare variables
+      vector<double> dx[i];
+      time_t start, end;
+      vector<double> dt[i];
+      vector<double> v[i];
+
 
       //Initial conditions
-      double x0=0;
       time_t start;
       
       //displacement and time elapsed
-      double dx = x - x0;
+	//for(int i=0; i<nFrames; i++){} // considering
+      dx[i] = x[i+2] - x[i];
       time_t end;
-      double dt = difftime(end,start);
-      cout << "displacement:" << dx << endl;
-      cout << "time elapsed:" << dt << endl;
-      double v = dx/dt;
-      cout << "velocity" << v << endl;
+      dt[i] = 2*difftime(end,start);
+      cout << "displacement:" << dx << "[" << i << "]" << endl;
+      cout << "time elapsed:" << dt << "[" << i << "]" << endl;
+      double v[i] = dx/dt;
+      cout << "velocity" << v << "[" << i << "]" << endl;
 
-      x0=x;
+      x[i]=x[i+2];
 
-      /*vector<double> x;
-	int nFrames = capture.get(CAP_PROP_FRAME_COUNT);
-	x0=0;
-	for(int i=0; i<nFrames; i++){
-	double d = x-x0;
-	v=d/dt;
-	x0=x;
-	}
-       */
+
+*/
              
       /// Create Window 
       //const char* moments_window = "Moments"; 

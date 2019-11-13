@@ -8,4 +8,4 @@ What I got so far:
 2. How to detect movement: background subtraction looks better than absdiff;
 3. How to track movement: meanshift has simple and good features to that - I can refine this later;
 4. How to identify sphere's centroid: moments can normalize a polygon's position by the area (m01/m00);
-5. How to calculate velocity: using the Physics law v=dx/dt, I need to get dx using a backup-loop and dt using fps conversion;
+5. How to calculate velocity: (i) update/store the centroid positions using vectors, (ii) calculate backwards, forward or midpoint velocity based on the future and on the past; (iii) how to end a loop? What's the criteria?;

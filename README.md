@@ -11,6 +11,6 @@ What I got so far:
 3.2 Based on color (Green);
 4. Track motion: meanShift is based on pixel's density displacement and its strictly dependent on the ROI;
 5. Find the physical center of mass: function "Moments" calculates the centroid, which need to be correctly positioned from ROI to the actual frame;
-6. Record time elapsed: using "getTickCount()" worked better than "time_t" function - remember: the shorter, the better.
+6. Record time elapsed: using "getTickCount()" worked better than "time_t" function - remember: the shorter the time interval, the better.
 7. Calculate and expose displacement: in order to have a substantial displacement - pixel quite apart from each other - store three positions in a vector and ignore the middle one (maybe there's a better solution using a fork method - I cannot say);
 8. Calculate and expose velocity:  (i) calculate backwards, forward or midpoint velocity based on the future and on the past; (ii) how to expose it currently?

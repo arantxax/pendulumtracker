@@ -14,3 +14,8 @@ What I got so far:
 6. Record time elapsed: using "getTickCount()" worked better than "time_t" function - remember: the shorter the time interval, the better.
 7. Calculate and expose displacement: in order to have a substantial displacement - pixel quite apart from each other - store three positions in a vector and ignore the middle one (maybe there's a better solution using a fork method - I cannot say);
 8. Calculate and expose velocity:  (i) calculate backwards, forward or midpoint velocity based on the future and on the past; (ii) how to expose it currently?
+RESULTS SO FAR - VELOCITY IS UPDATED EVERY TWO FRAMES
+    counter = 0;    counter = 1;     counter = 2;   counter = 0;    counter = 1;     counter = 2;
+[x]     92             84                 79              72            69                68
+[v]     0              0                 -152            -152          -152              -66
+

@@ -3,7 +3,7 @@ Script to detect and track a real simple pendulum's motion in order to draw its 
 I'm writing a final work in Physics Teaching and the goal is to create an Augmented Reality that allows students and visitors to "see" physics vectors simultaneously with an experiment conducted in a science museum. OpenCV has good features for that and later I can wrap it in an Android SDK.
 What I got so far:
 
-0. Installation in Windows (Update: I gave up - Linux is far straightforward);
+0. Installation Linux (far straightforward);
 1. Capture and loop frames from the file called "20190829_150101.mp4" (aftwerwards channel it to the default camera);
 2. Isolate what's moving: Background Subtraction method has an update better than Absdiff (which also deletes the stationary ball at its maximal amplitude);
 3. Establish Region of Interest ROI: Object Detection can avoid taking visitors' or any other motion into account (not initialized yet);

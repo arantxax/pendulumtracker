@@ -22,22 +22,22 @@ counter = 0
 [v] = 0
 
 
-counter = 1;
+counter = 1
 [x] = 84
 [v] = 0
 
 
-counter = 2;	   
+counter = 2
 [x] = 79	
 [v] = -152	
 
 
-counter = 0;	
+counter = 0
 [x] = 72	
 [v] = -152
 
 
-counter = 1;     
+counter = 1
 [x] = 69
 [v] = -152
 

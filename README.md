@@ -7,9 +7,7 @@ What I got so far:
 1. Capture and loop frames from the file called "20190829_150101.mp4" (aftwerwards channel it to the default camera);
 2. Isolate what's moving: Background Subtraction method has an update better than Absdiff (which also deletes the stationary ball at its maximal amplitude);
 3. Establish Region of Interest ROI: Object Detection can avoid taking visitors' or any other motion into account (not initialized yet);
-
 3.1 Based on format (Circle);
-
 3.2 Based on color (Green);
 4. Track motion: meanShift is based on pixel's density displacement and its strictly dependent on the ROI;
 5. Find the physical center of mass: function "Moments" calculates the centroid, which need to be correctly positioned from ROI to the actual frame;

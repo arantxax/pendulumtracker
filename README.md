@@ -13,7 +13,8 @@ What I got so far:
 5. Find the physical center of mass: function "Moments" calculates the centroid, which need to be correctly positioned from ROI to the actual frame;
 6. Record time elapsed: using "getTickCount()" worked better than "time_t" function - remember: the shorter the time interval, the better.
 7. Calculate and expose displacement: in order to have a substantial displacement - pixel quite apart from each other - store three positions in a vector and ignore the middle one (maybe there's a better solution using a fork method - I cannot say);
-8. Calculate and expose velocity:  (i) calculate backwards, forward or midpoint velocity based on the future and on the past; (ii) how to expose it currently?
+8. Calculate and expose velocity:  (i) calculate backwards, forward or midpoint (chosen) velocity based on the future and on the past; (ii) in order to show it, use only a x or y component: arrowedLine (center, center + vx) or (center, center + vy);
+9. Calculate and expose acceleration: use finite elements principle (a[i] = r[i+2] - 2r[i+1] + r[i]. Expose acceleration depends on vector projection onto radial and tangencial directions;
 
 RESULTS SO FAR - VELOCITY IS UPDATED EVERY TWO FRAMES
 

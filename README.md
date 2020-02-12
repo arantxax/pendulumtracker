@@ -14,35 +14,10 @@ What I got so far:
 6. Record time elapsed: using "getTickCount()" worked better than "time_t" function - remember: the shorter the time interval, the better.
 7. Calculate and expose displacement: in order to have a substantial displacement - pixel quite apart from each other - store three positions in a vector and ignore the middle one (maybe there's a better solution using a fork method - I cannot say);
 8. Calculate and expose velocity:  (i) calculate backwards, forward or midpoint (chosen) velocity based on the future and on the past; (ii) in order to show it, use only a x or y component: arrowedLine (center, center + vx) or (center, center + vy);
-9. Calculate and expose acceleration: use finite elements principle (a[i] = r[i+2] - 2r[i+1] + r[i]. Expose acceleration depends on vector projection onto radial and tangencial directions;
+9. Calculate and expose acceleration: use finite elements principle (a[i] = r[i+2] - 2r[i+1] + r[i]). Expose acceleration depends on vector projection onto radial and tangencial directions;
 
-RESULTS SO FAR - VELOCITY IS UPDATED EVERY TWO FRAMES
+(Tangencial unitary vector) ŧ ⟂ ř (Radial unitary vector)
+[aî , bĵ] ⟂ [bî , -|a|ĵ] //preferencial y direction: -y
+...........................ŧ = v/|v|.....................
 
-counter = 0	
-[x] = 92
-[v] = 0
-
-
-counter = 1
-[x] = 84
-[v] = 0
-
-
-counter = 2
-[x] = 79	
-[v] = -152	
-
-
-counter = 0
-[x] = 72	
-[v] = -152
-
-
-counter = 1
-[x] = 69
-[v] = -152
-
-
-counter = 2;
-[x] = 68
-[v] = -66
+a = [(a • ŧ)ŧ  , (a • ř)ř] 

@@ -17,7 +17,9 @@ What I got so far:
 9. Calculate and expose acceleration: use finite elements principle (a[i] = r[i+2] - 2r[i+1] + r[i]). Expose acceleration depends on vector projection onto radial and tangencial directions;
 
 (Tangencial unitary vector) ŧ ⟂ ř (Radial unitary vector)
+
 [aî , bĵ] ⟂ [bî , -|a|ĵ] //preferencial y direction: -y
+
 ...........................ŧ = v/|v|.....................
 
 a = [(a • ŧ)ŧ  , (a • ř)ř] 

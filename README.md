@@ -23,6 +23,9 @@ What I got so far:
  ![Screenshot](x_y_oneshot.png)
 ![Cat](https://raw.githubusercontent.com/paulmelnikow/zsh-startup-timer/3923c60fc66d4223ccf063d169ccf2ff167b1270/cat.png)
 ![stack Overflow](https://github.com/arantxax/pendulum-opencv/blob/master/x_y_oneshot.png)
+<br>
+<img height="700" src="https://github.com/arantxax/pendulum-opencv/blob/master/x_y_oneshot.png" />
+<br>
 
 
 (Tangencial unitary vector) ŧ ⟂ ř (Radial unitary vector)

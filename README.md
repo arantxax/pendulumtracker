@@ -22,7 +22,7 @@ What I got so far:
 
 | Vx is also periodical and the same | Acceleration |
 |------------|-------------| 
-|<img src="vx_t_multipleshots" width="400"> | <img src="acceleration in x axis" width="400">|
+|<img src="vx_t_multipleshots" width="400"> | <img src="acceleration x axis" width="400">|
 
 
 Watch the video:

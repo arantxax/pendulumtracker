@@ -25,12 +25,6 @@ What I got so far:
 |<img src="vx_t_multipleshots" width="400"> | <img src="vx_t_multipleshots" width="400">|
 
 
-https://youtu.be/uV2xElP7mIY
-
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uV2xElP7mIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Watch the video:
 
 [![Watch the video](http://www.cdfis.ufpr.br/portal/wp-content/uploads/2017/08/fibra-branco.jpg)](https://youtu.be/uV2xElP7mIY)
-
-[![AAA](http://www.cdfis.ufpr.br/portal/wp-content/uploads/2017/08/fibra-branco.jpg)](https://youtu.be/uV2xElP7mIY)

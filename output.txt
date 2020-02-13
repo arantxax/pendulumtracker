@@ -1,0 +1,4488 @@
+time elapsed:      0.11 s
+Acceleration in x and y axis is: [243.461, -354.439]
+v_unit_tangencial: [-0.924546, -0.38107]
+v_unit_radial:[0.38107, -0.924546]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-90.0242	420.471
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[83.2315, 34.3056]
+Project acceleration onto velocity radial vector:
+a_radial:	[160.229, -388.745]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [394.899, 381.55]
+v_unit_tangencial: [-0.702239, -0.711942]
+v_unit_radial:[0.711942, -0.702239]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-548.954	13.2059
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[385.497, 390.824]
+Project acceleration onto velocity radial vector:
+a_radial:	[9.40182, -9.27369]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [140.102, 1244.47]
+v_unit_tangencial: [0.00612181, -0.999981]
+v_unit_radial:[-0.999981, -0.00612181]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1243.59	-147.718
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-7.61303, 1243.57]
+Project acceleration onto velocity radial vector:
+a_radial:	[147.715, 0.904303]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [583.388, 1407.42]
+v_unit_tangencial: [0.403253, -0.915088]
+v_unit_radial:[-0.915088, -0.403253]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1052.66	-1101.4
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-424.487, 963.275]
+Project acceleration onto velocity radial vector:
+a_radial:	[1007.88, 444.142]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [350.221, 898.37]
+v_unit_tangencial: [0.995262, -0.0972333]
+v_unit_radial:[-0.0972333, -0.995262]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+261.21	-928.167
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[259.972, -25.3983]
+Project acceleration onto velocity radial vector:
+a_radial:	[90.2487, 923.769]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [58.5991, -142.253]
+v_unit_tangencial: [0.951112, 0.308846]
+v_unit_radial:[0.308846, -0.951112]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+11.8	153.397
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[11.2231, 3.64439]
+Project acceleration onto velocity radial vector:
+a_radial:	[47.3759, -145.897]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [40.8156, -823.296]
+v_unit_tangencial: [0.809696, 0.58685]
+v_unit_radial:[0.58685, -0.809696]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-450.103	690.571
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-364.446, -264.143]
+Project acceleration onto velocity radial vector:
+a_radial:	[405.262, -559.153]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [-301.318, -2404.95]
+v_unit_tangencial: [0.695979, 0.718062]
+v_unit_radial:[0.718062, -0.695979]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1936.61	1457.43
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1347.84, -1390.61]
+Project acceleration onto velocity radial vector:
+a_radial:	[1046.52, -1014.34]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-127.645, -3233.23]
+v_unit_tangencial: [0.645004, 0.764179]
+v_unit_radial:[0.764179, -0.645004]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2553.1	1987.91
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1646.76, -1951.03]
+Project acceleration onto velocity radial vector:
+a_radial:	[1519.12, -1282.21]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [625.452, -5536.72]
+v_unit_tangencial: [0.685034, 0.728511]
+v_unit_radial:[0.728511, -0.685034]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3605.11	4248.49
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2469.62, -2626.36]
+Project acceleration onto velocity radial vector:
+a_radial:	[3095.07, -2910.36]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [-234.163, -5456.45]
+v_unit_tangencial: [0.580803, 0.814044]
+v_unit_radial:[0.814044, -0.580803]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-4577.79	2978.51
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2658.8, -3726.52]
+Project acceleration onto velocity radial vector:
+a_radial:	[2424.63, -1729.93]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [-361.758, -5918.41]
+v_unit_tangencial: [0.644423, 0.764669]
+v_unit_radial:[0.764669, -0.644423]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-4758.75	3537.34
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-3066.65, -3638.87]
+Project acceleration onto velocity radial vector:
+a_radial:	[2704.89, -2279.54]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [183.598, -6946.34]
+v_unit_tangencial: [0.689646, 0.724147]
+v_unit_radial:[0.724147, -0.689646]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-4903.55	4923.47
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-3381.71, -3550.89]
+Project acceleration onto velocity radial vector:
+a_radial:	[3565.31, -3395.45]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [104.66, -5988.63]
+v_unit_tangencial: [0.700498, 0.713655]
+v_unit_radial:[0.713655, -0.700498]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-4200.5	4269.71
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2942.44, -2997.71]
+Project acceleration onto velocity radial vector:
+a_radial:	[3047.1, -2990.92]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [-183.337, -6098.7]
+v_unit_tangencial: [0.679229, 0.733926]
+v_unit_radial:[0.733926, -0.679229]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-4600.52	4007.86
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-3124.81, -3376.44]
+Project acceleration onto velocity radial vector:
+a_radial:	[2941.47, -2722.25]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [85.63, -4848.7]
+v_unit_tangencial: [0.75515, 0.655552]
+v_unit_radial:[0.655552, -0.75515]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3113.91	3717.63
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2351.47, -2041.33]
+Project acceleration onto velocity radial vector:
+a_radial:	[2437.1, -2807.37]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [-367.982, -3487.78]
+v_unit_tangencial: [0.806413, 0.591353]
+v_unit_radial:[0.591353, -0.806413]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2359.25	2594.98
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1902.53, -1395.15]
+Project acceleration onto velocity radial vector:
+a_radial:	[1534.55, -2092.62]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [-278.948, -2479.84]
+v_unit_tangencial: [0.92136, 0.38871]
+v_unit_radial:[0.38871, -0.92136]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1220.95	2176.4
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1124.94, -474.596]
+Project acceleration onto velocity radial vector:
+a_radial:	[845.987, -2005.25]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [-94.0785, -784.754]
+v_unit_tangencial: [0.994728, -0.102552]
+v_unit_radial:[-0.102552, -0.994728]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-13.1046	790.265
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-13.0356, 1.3439]
+Project acceleration onto velocity radial vector:
+a_radial:	[-81.0429, -786.098]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-507.442, -6.59784]
+v_unit_tangencial: [0.783255, -0.6217]
+v_unit_radial:[-0.6217, -0.783255]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-393.355	320.644
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-308.097, 244.549]
+Project acceleration onto velocity radial vector:
+a_radial:	[-199.345, -251.146]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-51.7636, 1064.02]
+v_unit_tangencial: [0.343936, -0.938993]
+v_unit_radial:[-0.938993, -0.343936]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1016.91	-317.35
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-349.753, 954.875]
+Project acceleration onto velocity radial vector:
+a_radial:	[297.99, 109.148]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [-278.225, 1529.79]
+v_unit_tangencial: [-0.576145, -0.817347]
+v_unit_radial:[0.817347, -0.576145]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1090.07	-1108.79
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[628.039, 890.967]
+Project acceleration onto velocity radial vector:
+a_radial:	[-906.265, 638.823]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [-342.726, 876.467]
+v_unit_tangencial: [-0.944662, -0.328045]
+v_unit_radial:[0.328045, -0.944662]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+36.2396	-940.395
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-34.2342, -11.8882]
+Project acceleration onto velocity radial vector:
+a_radial:	[-308.492, 888.355]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-154.043, 225.032]
+v_unit_tangencial: [-0.930654, 0.3659]
+v_unit_radial:[-0.3659, -0.930654]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+225.7	-153.063
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-210.048, 82.5835]
+Project acceleration onto velocity radial vector:
+a_radial:	[56.0056, 142.448]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-152.66, -548.512]
+v_unit_tangencial: [-0.779734, 0.626111]
+v_unit_radial:[-0.626111, -0.779734]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-224.396	523.275
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[174.969, -140.497]
+Project acceleration onto velocity radial vector:
+a_radial:	[-327.628, -408.015]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [-337.573, -1635.25]
+v_unit_tangencial: [-0.759068, 0.651011]
+v_unit_radial:[-0.651011, -0.759068]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-808.325	1461.03
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[613.574, -526.228]
+Project acceleration onto velocity radial vector:
+a_radial:	[-951.147, -1109.02]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-115.978, -2938.96]
+v_unit_tangencial: [-0.684421, 0.729087]
+v_unit_radial:[-0.729087, -0.684421]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2063.38	2096.05
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1412.22, -1504.39]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1528.2, -1434.58]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-482.893, -4760.7]
+v_unit_tangencial: [-0.693595, 0.720366]
+v_unit_radial:[-0.720366, -0.693595]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3094.51	3649.86
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2146.34, -2229.18]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2629.23, -2531.52]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-547.005, -5420.38]
+v_unit_tangencial: [-0.633533, 0.773716]
+v_unit_radial:[-0.773716, -0.633533]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3847.29	3857.22
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2437.39, -2976.71]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2984.39, -2443.67]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-66.3989, -5517.44]
+v_unit_tangencial: [-0.671739, 0.740788]
+v_unit_radial:[-0.740788, -0.671739]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-4042.65	3755.47
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2715.61, -2994.75]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2782.01, -2522.69]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [469.201, -5659.04]
+v_unit_tangencial: [-0.652198, 0.758049]
+v_unit_radial:[-0.758049, -0.652198]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-4595.84	3335.14
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2997.4, -3483.87]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2528.2, -2175.17]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-354.122, -4861.54]
+v_unit_tangencial: [-0.720217, 0.693749]
+v_unit_radial:[-0.693749, -0.720217]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3117.64	3747.03
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2245.38, -2162.86]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2599.5, -2698.68]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [169.325, -4960.03]
+v_unit_tangencial: [-0.745864, 0.666098]
+v_unit_radial:[-0.666098, -0.745864]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3430.16	3586.72
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2558.43, -2284.82]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2389.11, -2675.21]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [604.332, -3741.23]
+v_unit_tangencial: [-0.788322, 0.615263]
+v_unit_radial:[-0.615263, -0.788322]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2778.25	2577.47
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2190.16, -1709.35]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1585.82, -2031.88]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [373.173, -2908.79]
+v_unit_tangencial: [-0.899821, 0.43626]
+v_unit_radial:[-0.43626, -0.899821]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1604.78	2454.59
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1444.01, -700.099]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1070.84, -2208.69]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-441.091, -2176.83]
+v_unit_tangencial: [-0.986719, 0.162435]
+v_unit_radial:[-0.162435, -0.986719]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+81.6389	2219.57
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-80.5547, 13.261]
+Project acceleration onto velocity radial vector:
+a_radial:	[-360.536, -2190.09]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [331.75, -479.504]
+v_unit_tangencial: [-0.995797, -0.0915859]
+v_unit_radial:[0.0915859, -0.995797]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-286.44	507.872
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[285.236, 26.2339]
+Project acceleration onto velocity radial vector:
+a_radial:	[46.5139, -505.737]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [71.6323, 194.765]
+v_unit_tangencial: [-0.834782, -0.550581]
+v_unit_radial:[0.550581, -0.834782]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-167.032	-123.147
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[139.435, 91.9644]
+Project acceleration onto velocity radial vector:
+a_radial:	[-67.8025, 102.801]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [486.533, 617.274]
+v_unit_tangencial: [-0.428289, -0.903642]
+v_unit_radial:[0.903642, -0.428289]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-766.172	175.28
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[328.143, 692.345]
+Project acceleration onto velocity radial vector:
+a_radial:	[158.39, -75.0705]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [380.471, 1175.7]
+v_unit_tangencial: [0.250183, -0.968199]
+v_unit_radial:[-0.968199, -0.250183]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1043.12	-662.511
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-260.971, 1009.95]
+Project acceleration onto velocity radial vector:
+a_radial:	[641.442, 165.749]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [287.017, 871.281]
+v_unit_tangencial: [0.921497, -0.388384]
+v_unit_radial:[-0.388384, -0.921497]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-73.9067	-914.356
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-68.1049, 28.7042]
+Project acceleration onto velocity radial vector:
+a_radial:	[355.122, 842.577]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [358.938, 659.849]
+v_unit_tangencial: [0.991072, 0.133328]
+v_unit_radial:[0.133328, -0.991072]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+443.71	-606.101
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[439.748, 59.1588]
+Project acceleration onto velocity radial vector:
+a_radial:	[-80.8101, 600.69]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [74.992, -831.604]
+v_unit_tangencial: [0.88806, 0.459727]
+v_unit_radial:[0.459727, -0.88806]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-315.714	772.991
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-280.373, -145.142]
+Project acceleration onto velocity radial vector:
+a_radial:	[355.365, -686.462]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [244.552, -1138.35]
+v_unit_tangencial: [0.807373, 0.590042]
+v_unit_radial:[0.590042, -0.807373]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-474.231	1063.37
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-382.881, -279.816]
+Project acceleration onto velocity radial vector:
+a_radial:	[627.433, -858.535]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [698.003, -2528.44]
+v_unit_tangencial: [0.724649, 0.689119]
+v_unit_radial:[0.689119, -0.724649]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1236.59	2313.24
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-896.092, -852.156]
+Project acceleration onto velocity radial vector:
+a_radial:	[1594.1, -1676.29]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [96.3787, -4775.21]
+v_unit_tangencial: [0.648943, 0.760837]
+v_unit_radial:[0.760837, -0.648943]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3570.61	3172.17
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2317.12, -2716.65]
+Project acceleration onto velocity radial vector:
+a_radial:	[2413.5, -2058.56]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [23.3957, -4087.75]
+v_unit_tangencial: [0.718015, 0.696027]
+v_unit_radial:[0.696027, -0.718015]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2828.38	2951.35
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2030.82, -1968.63]
+Project acceleration onto velocity radial vector:
+a_radial:	[2054.22, -2119.11]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-112.324, -4213.64]
+v_unit_tangencial: [0.629701, 0.776838]
+v_unit_radial:[0.776838, -0.629701]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3344.05	2566.08
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2105.75, -2597.78]
+Project acceleration onto velocity radial vector:
+a_radial:	[1993.42, -1615.86]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-134.757, -5534.96]
+v_unit_tangencial: [0.687999, 0.725712]
+v_unit_radial:[0.725712, -0.687999]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-4109.5	3710.25
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2827.33, -2982.31]
+Project acceleration onto velocity radial vector:
+a_radial:	[2692.57, -2552.64]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-7.59667, -5694.26]
+v_unit_tangencial: [0.684525, 0.728989]
+v_unit_radial:[0.728989, -0.684525]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-4156.25	3892.32
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2845.06, -3029.86]
+Project acceleration onto velocity radial vector:
+a_radial:	[2837.46, -2664.39]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-637.01, -5205.91]
+v_unit_tangencial: [0.766057, 0.642772]
+v_unit_radial:[0.642772, -0.766057]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3834.2	3578.57
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2937.22, -2464.52]
+Project acceleration onto velocity radial vector:
+a_radial:	[2300.21, -2741.39]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-756.878, -4418.53]
+v_unit_tangencial: [0.800939, 0.598746]
+v_unit_radial:[0.598746, -0.800939]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3251.79	3085.8
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2604.49, -1947]
+Project acceleration onto velocity radial vector:
+a_radial:	[1847.61, -2471.54]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-111.2, -2609.56]
+v_unit_tangencial: [0.926212, 0.377003]
+v_unit_radial:[0.377003, -0.926212]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1086.81	2375.09
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1006.62, -409.731]
+Project acceleration onto velocity radial vector:
+a_radial:	[895.415, -2199.83]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-494.868, -1567.25]
+v_unit_tangencial: [0.976108, 0.217285]
+v_unit_radial:[0.217285, -0.976108]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-823.586	1422.28
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-803.909, -178.953]
+Project acceleration onto velocity radial vector:
+a_radial:	[309.041, -1388.3]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-320.441, -987.171]
+v_unit_tangencial: [0.944282, -0.329137]
+v_unit_radial:[-0.329137, -0.944282]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+22.3275	1037.64
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[21.0835, -7.34882]
+Project acceleration onto velocity radial vector:
+a_radial:	[-341.525, -979.822]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-424.071, 935.414]
+v_unit_tangencial: [0.5353, -0.844662]
+v_unit_radial:[-0.844662, -0.5353]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1017.11	-142.53
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-544.461, 859.118]
+Project acceleration onto velocity radial vector:
+a_radial:	[120.39, 76.2965]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-58.5878, 1851.37]
+v_unit_tangencial: [0.308917, -0.951089]
+v_unit_radial:[-0.951089, -0.308917]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1778.92	-516.197
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-549.537, 1691.91]
+Project acceleration onto velocity radial vector:
+a_radial:	[490.949, 159.462]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-502.173, 2069.86]
+v_unit_tangencial: [0.178473, -0.983945]
+v_unit_radial:[-0.983945, -0.178473]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2126.26	124.697
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-379.478, 2092.12]
+Project acceleration onto velocity radial vector:
+a_radial:	[-122.695, -22.2549]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [107.303, 1695.77]
+v_unit_tangencial: [-0.65221, -0.758038]
+v_unit_radial:[0.758038, -0.65221]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1355.44	-1024.66
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[884.034, 1027.48]
+Project acceleration onto velocity radial vector:
+a_radial:	[-776.73, 668.293]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-443.47, 1658.27]
+v_unit_tangencial: [-0.906301, -0.422633]
+v_unit_radial:[0.422633, -0.906301]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-298.923	-1690.32
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[270.914, 126.335]
+Project acceleration onto velocity radial vector:
+a_radial:	[-714.384, 1531.94]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-73.7674, 1001.71]
+v_unit_tangencial: [-0.969846, 0.243717]
+v_unit_radial:[-0.243717, -0.969846]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+315.677	-953.528
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-306.159, 76.9361]
+Project acceleration onto velocity radial vector:
+a_radial:	[232.391, 924.776]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-180.369, -561.237]
+v_unit_tangencial: [-0.847574, 0.530676]
+v_unit_radial:[-0.530676, -0.847574]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-144.959	571.408
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[122.863, -76.9262]
+Project acceleration onto velocity radial vector:
+a_radial:	[-303.233, -484.311]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-276.868, -1527.44]
+v_unit_tangencial: [-0.818581, 0.574391]
+v_unit_radial:[-0.574391, -0.818581]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-650.708	1409.36
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[532.657, -373.761]
+Project acceleration onto velocity radial vector:
+a_radial:	[-809.525, -1153.68]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [99.4546, -2661.29]
+v_unit_tangencial: [-0.766218, 0.642581]
+v_unit_radial:[-0.642581, -0.766218]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1786.3	1975.22
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1368.7, -1147.84]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1269.24, -1513.45]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-12.4694, -3958.76]
+v_unit_tangencial: [-0.771982, 0.635645]
+v_unit_radial:[-0.635645, -0.771982]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2506.74	3064.02
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1935.16, -1593.4]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1947.63, -2365.37]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-459.986, -4360.84]
+v_unit_tangencial: [-0.755932, 0.65465]
+v_unit_radial:[-0.65465, -0.755932]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2507.1	3597.63
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1895.2, -1641.28]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2355.19, -2719.56]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [354.939, -4823.05]
+v_unit_tangencial: [-0.696777, 0.717288]
+v_unit_radial:[-0.717288, -0.696777]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3706.83	3106
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2582.83, -2658.86]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2227.89, -2164.19]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [209.074, -5229.87]
+v_unit_tangencial: [-0.761157, 0.648568]
+v_unit_radial:[-0.648568, -0.761157]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3551.06	3845.15
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2702.92, -2303.1]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2493.84, -2926.77]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-64.2965, -3668.13]
+v_unit_tangencial: [-0.754131, 0.656724]
+v_unit_radial:[-0.656724, -0.754131]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2360.46	2808.47
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1780.1, -1550.17]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1844.39, -2117.96]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-220.014, -3303.61]
+v_unit_tangencial: [-0.826887, 0.562368]
+v_unit_radial:[-0.562368, -0.826887]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1675.92	2855.44
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1385.79, -942.482]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1605.81, -2361.12]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-477.263, -3019.23]
+v_unit_tangencial: [-0.91629, 0.400515]
+v_unit_radial:[-0.400515, -0.91629]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-771.937	2957.64
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[707.318, -309.173]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1184.58, -2710.06]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [461.182, -1400.17]
+v_unit_tangencial: [-0.966574, 0.256387]
+v_unit_radial:[-0.256387, -0.966574]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-804.751	1235.13
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[777.852, -206.328]
+Project acceleration onto velocity radial vector:
+a_radial:	[-316.67, -1193.84]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-0.171084, -409.635]
+v_unit_tangencial: [-0.93852, -0.345224]
+v_unit_radial:[0.345224, -0.93852]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+141.577	384.392
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-132.872, -48.8757]
+Project acceleration onto velocity radial vector:
+a_radial:	[132.701, -360.759]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-26.195, 776.838]
+v_unit_tangencial: [-0.746748, -0.665107]
+v_unit_radial:[0.665107, -0.746748]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-497.12	-597.525
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[371.223, 330.638]
+Project acceleration onto velocity radial vector:
+a_radial:	[-397.418, 446.2]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [75.6757, 1299.03]
+v_unit_tangencial: [-0.351164, -0.936314]
+v_unit_radial:[0.936314, -0.351164]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1242.88	-385.318
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[436.454, 1163.72]
+Project acceleration onto velocity radial vector:
+a_radial:	[-360.778, 135.31]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [408.575, 2064]
+v_unit_tangencial: [-0.0234876, -0.999724]
+v_unit_radial:[0.999724, -0.0234876]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2073.03	359.983
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[48.6904, 2072.46]
+Project acceleration onto velocity radial vector:
+a_radial:	[359.884, -8.45515]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-64.1616, 2106.45]
+v_unit_tangencial: [0.552403, -0.833577]
+v_unit_radial:[-0.833577, -0.552403]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1791.33	-1110.13
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-989.538, 1493.21]
+Project acceleration onto velocity radial vector:
+a_radial:	[925.376, 613.237]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [366.23, 1236.47]
+v_unit_tangencial: [0.89707, -0.441888]
+v_unit_radial:[-0.441888, -0.89707]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-217.846	-1271.03
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-195.423, 96.2635]
+Project acceleration onto velocity radial vector:
+a_radial:	[561.653, 1140.2]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [152.681, 771.093]
+v_unit_tangencial: [0.968036, 0.25081]
+v_unit_radial:[0.25081, -0.968036]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+341.198	-708.152
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[330.292, 85.5761]
+Project acceleration onto velocity radial vector:
+a_radial:	[-177.612, 685.517]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [40.2234, -490.144]
+v_unit_tangencial: [0.836523, 0.547932]
+v_unit_radial:[0.547932, -0.836523]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-234.917	432.056
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-196.514, -128.719]
+Project acceleration onto velocity radial vector:
+a_radial:	[236.737, -361.425]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [-237.658, -2160.22]
+v_unit_tangencial: [0.784175, 0.62054]
+v_unit_radial:[0.62054, -0.784175]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1526.87	1546.51
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1197.33, -947.484]
+Project acceleration onto velocity radial vector:
+a_radial:	[959.674, -1212.74]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [35.5936, -3269.01]
+v_unit_tangencial: [0.709765, 0.704438]
+v_unit_radial:[0.704438, -0.709765]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2277.56	2345.31
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1616.53, -1604.4]
+Project acceleration onto velocity radial vector:
+a_radial:	[1652.12, -1664.62]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [435.24, -4043.72]
+v_unit_tangencial: [0.710557, 0.703639]
+v_unit_radial:[0.703639, -0.710557]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2536.06	3179.55
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1802.02, -1784.47]
+Project acceleration onto velocity radial vector:
+a_radial:	[2237.26, -2259.25]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-47.5815, -4929.29]
+v_unit_tangencial: [0.659916, 0.75134]
+v_unit_radial:[0.75134, -0.659916]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3734.97	3217.17
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2464.77, -2806.23]
+Project acceleration onto velocity radial vector:
+a_radial:	[2417.18, -2123.06]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [379.723, -5698.46]
+v_unit_tangencial: [0.702395, 0.711787]
+v_unit_radial:[0.711787, -0.702395]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3789.37	4272.85
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2661.64, -2697.23]
+Project acceleration onto velocity radial vector:
+a_radial:	[3041.36, -3001.23]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [119.414, -5501.53]
+v_unit_tangencial: [0.698043, 0.716055]
+v_unit_radial:[0.716055, -0.698043]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3856.04	3925.81
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2691.68, -2761.14]
+Project acceleration onto velocity radial vector:
+a_radial:	[2811.1, -2740.39]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [726.324, -4907.4]
+v_unit_tangencial: [0.731088, 0.682283]
+v_unit_radial:[0.682283, -0.731088]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2817.23	4083.3
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2059.64, -1922.15]
+Project acceleration onto velocity radial vector:
+a_radial:	[2785.97, -2985.25]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [210.232, -4352.87]
+v_unit_tangencial: [0.788562, 0.614955]
+v_unit_radial:[0.614955, -0.788562]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2511.04	3561.79
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1980.11, -1544.18]
+Project acceleration onto velocity radial vector:
+a_radial:	[2190.34, -2808.69]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-265.22, -3395.23]
+v_unit_tangencial: [0.873868, 0.486163]
+v_unit_radial:[0.486163, -0.873868]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1882.41	2838.05
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1644.97, -915.157]
+Project acceleration onto velocity radial vector:
+a_radial:	[1379.75, -2480.08]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-230.288, -2019.91]
+v_unit_tangencial: [0.962314, 0.271942]
+v_unit_radial:[0.271942, -0.962314]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-770.907	1881.16
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-741.854, -209.642]
+Project acceleration onto velocity radial vector:
+a_radial:	[511.566, -1810.27]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-33.7382, -896.139]
+v_unit_tangencial: [0.994256, -0.107029]
+v_unit_radial:[-0.107029, -0.994256]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+62.3681	894.602
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[62.0099, -6.67518]
+Project acceleration onto velocity radial vector:
+a_radial:	[-95.7481, -889.464]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [97.1108, 528.644]
+v_unit_tangencial: [0.777677, -0.628665]
+v_unit_radial:[-0.628665, -0.777677]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-256.819	-472.164
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-199.722, 161.453]
+Project acceleration onto velocity radial vector:
+a_radial:	[296.833, 367.191]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-555.938, 1095.57]
+v_unit_tangencial: [0.425833, -0.904802]
+v_unit_radial:[-0.904802, -0.425833]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1228.01	36.4827
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-522.929, 1111.11]
+Project acceleration onto velocity radial vector:
+a_radial:	[-33.0096, -15.5355]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-87.6463, 1634.11]
+v_unit_tangencial: [0.207182, -0.978302]
+v_unit_radial:[-0.978302, -0.207182]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1616.81	-252.814
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-334.975, 1581.73]
+Project acceleration onto velocity radial vector:
+a_radial:	[247.329, 52.3785]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [-76.2825, 2105.31]
+v_unit_tangencial: [-0.283133, -0.959081]
+v_unit_radial:[0.959081, -0.283133]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1997.57	-669.246
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[565.578, 1915.83]
+Project acceleration onto velocity radial vector:
+a_radial:	[-641.86, 189.486]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-90.2901, 1510.16]
+v_unit_tangencial: [-0.904119, -0.427281]
+v_unit_radial:[0.427281, -0.904119]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-563.631	-1403.94
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[509.589, 240.829]
+Project acceleration onto velocity radial vector:
+a_radial:	[-599.879, 1269.33]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-291.503, 631.973]
+v_unit_tangencial: [-0.968314, 0.249734]
+v_unit_radial:[-0.249734, -0.968314]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+440.092	-539.15
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-426.148, 109.906]
+Project acceleration onto velocity radial vector:
+a_radial:	[134.644, 522.066]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-468.285, -375.06]
+v_unit_tangencial: [-0.840376, 0.542004]
+v_unit_radial:[-0.542004, -0.840376]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+190.251	569.004
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-159.883, 103.117]
+Project acceleration onto velocity radial vector:
+a_radial:	[-308.402, -478.177]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-418.061, -1799.67]
+v_unit_tangencial: [-0.755217, 0.655475]
+v_unit_radial:[-0.655475, -0.755217]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-863.912	1633.17
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[652.44, -566.273]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1070.5, -1233.4]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-170.562, -3197.47]
+v_unit_tangencial: [-0.703394, 0.7108]
+v_unit_radial:[-0.7108, -0.703394]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2152.79	2370.32
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1514.26, -1530.2]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1684.82, -1667.27]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [168.092, -4711.6]
+v_unit_tangencial: [-0.689332, 0.724446]
+v_unit_radial:[-0.724446, -0.689332]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3529.17	3126.08
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2432.77, -2556.69]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2264.68, -2154.91]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-169.794, -5485.48]
+v_unit_tangencial: [-0.703415, 0.71078]
+v_unit_radial:[-0.71078, -0.703415]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3779.53	3979.25
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2658.58, -2686.41]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2828.37, -2799.06]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [1.80463, -5377.12]
+v_unit_tangencial: [-0.6897, 0.724095]
+v_unit_radial:[-0.724095, -0.6897]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3894.79	3707.29
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2686.24, -2820.2]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2684.43, -2556.92]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [410.408, -5937.71]
+v_unit_tangencial: [-0.691209, 0.722655]
+v_unit_radial:[-0.722655, -0.691209]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-4574.59	3807.62
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[3162, -3305.85]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2751.59, -2631.86]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-176.969, -4523.58]
+v_unit_tangencial: [-0.747837, 0.663883]
+v_unit_radial:[-0.663883, -0.747837]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2870.78	3500.38
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2146.88, -1905.86]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2323.84, -2617.71]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [451.379, -5192.5]
+v_unit_tangencial: [-0.70606, 0.708152]
+v_unit_radial:[-0.708152, -0.70606]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3995.78	3346.57
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2821.26, -2829.62]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2369.88, -2362.87]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [295.226, -3202.06]
+v_unit_tangencial: [-0.807452, 0.589933]
+v_unit_radial:[-0.589933, -0.807452]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2127.38	2411.35
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1717.76, -1255.01]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1422.53, -1947.05]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [206.164, -2304.75]
+v_unit_tangencial: [-0.916918, 0.399076]
+v_unit_radial:[-0.399076, -0.916918]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1108.8	2030.99
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1016.68, -442.497]
+Project acceleration onto velocity radial vector:
+a_radial:	[-810.518, -1862.25]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-131.198, -1386.99]
+v_unit_tangencial: [-0.996735, 0.080745]
+v_unit_radial:[-0.080745, -0.996735]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+18.7769	1393.06
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-18.7156, 1.51614]
+Project acceleration onto velocity radial vector:
+a_radial:	[-112.483, -1388.51]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [483.61, 67.7356]
+v_unit_tangencial: [-0.933476, -0.358641]
+v_unit_radial:[0.358641, -0.933476]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-475.731	110.213
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[444.083, 170.617]
+Project acceleration onto velocity radial vector:
+a_radial:	[39.5269, -102.881]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [364.529, 676.089]
+v_unit_tangencial: [-0.736157, -0.676811]
+v_unit_radial:[0.676811, -0.736157]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-725.936	-250.99
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[534.402, 491.321]
+Project acceleration onto velocity radial vector:
+a_radial:	[-169.873, 184.768]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [139.847, 1169.58]
+v_unit_tangencial: [-0.200747, -0.979643]
+v_unit_radial:[0.979643, -0.200747]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1173.85	-97.7904
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[235.646, 1149.95]
+Project acceleration onto velocity radial vector:
+a_radial:	[-95.7997, 19.6311]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [168.655, 1167.96]
+v_unit_tangencial: [0.221257, -0.975216]
+v_unit_radial:[-0.975216, -0.221257]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1101.7	-422.894
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-243.758, 1074.39]
+Project acceleration onto velocity radial vector:
+a_radial:	[412.413, 93.5682]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [9.72509, 1196.6]
+v_unit_tangencial: [0.970167, -0.242436]
+v_unit_radial:[-0.242436, -0.970167]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-280.665	-1163.26
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-272.292, 68.0432]
+Project acceleration onto velocity radial vector:
+a_radial:	[282.017, 1128.56]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-7.2723, 553.416]
+v_unit_tangencial: [0.937328, 0.348448]
+v_unit_radial:[0.348448, -0.937328]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+186.02	-521.266
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[174.362, 64.8181]
+Project acceleration onto velocity radial vector:
+a_radial:	[-181.634, 488.597]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [127.867, -852.084]
+v_unit_tangencial: [0.837985, 0.545693]
+v_unit_radial:[0.545693, -0.837985]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-357.825	783.81
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-299.852, -195.263]
+Project acceleration onto velocity radial vector:
+a_radial:	[427.72, -656.822]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-240.341, -1702.79]
+v_unit_tangencial: [0.709793, 0.70441]
+v_unit_radial:[0.70441, -0.709793]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1370.06	1039.33
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-972.458, -965.084]
+Project acceleration onto velocity radial vector:
+a_radial:	[732.117, -737.711]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-217.172, -2639.24]
+v_unit_tangencial: [0.705515, 0.708695]
+v_unit_radial:[0.708695, -0.705515]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2023.64	1708.12
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1427.71, -1434.14]
+Project acceleration onto velocity radial vector:
+a_radial:	[1210.53, -1205.1]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [994.08, -4629.81]
+v_unit_tangencial: [0.694003, 0.719972]
+v_unit_radial:[0.719972, -0.694003]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2643.44	3928.81
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1834.55, -1903.2]
+Project acceleration onto velocity radial vector:
+a_radial:	[2828.63, -2726.6]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-24.7145, -3944.61]
+v_unit_tangencial: [0.660546, 0.750786]
+v_unit_radial:[0.750786, -0.660546]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2977.88	2587.04
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1967.03, -2235.75]
+Project acceleration onto velocity radial vector:
+a_radial:	[1942.31, -1708.86]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [410.515, -5800.36]
+v_unit_tangencial: [0.638955, 0.769244]
+v_unit_radial:[0.769244, -0.638955]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-4199.59	4021.96
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2683.35, -3230.51]
+Project acceleration onto velocity radial vector:
+a_radial:	[3093.87, -2569.85]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-9.29702, -5049.3]
+v_unit_tangencial: [0.698506, 0.715605]
+v_unit_radial:[0.715605, -0.698506]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3619.8	3520.31
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2528.45, -2590.34]
+Project acceleration onto velocity radial vector:
+a_radial:	[2519.15, -2458.96]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-601.754, -5092.7]
+v_unit_tangencial: [0.65761, 0.753358]
+v_unit_radial:[0.753358, -0.65761]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-4232.35	2895.68
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2783.24, -3188.48]
+Project acceleration onto velocity radial vector:
+a_radial:	[2181.48, -1904.23]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-952.448, -4591.84]
+v_unit_tangencial: [0.731892, 0.68142]
+v_unit_radial:[0.68142, -0.731892]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3826.06	2711.72
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2800.27, -2607.16]
+Project acceleration onto velocity radial vector:
+a_radial:	[1847.82, -1984.68]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [55.1449, -4168.46]
+v_unit_tangencial: [0.83672, 0.547631]
+v_unit_radial:[0.547631, -0.83672]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2236.64	3518.03
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1871.44, -1224.85]
+Project acceleration onto velocity radial vector:
+a_radial:	[1926.58, -2943.61]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-443.594, -2901.52]
+v_unit_tangencial: [0.865172, 0.501476]
+v_unit_radial:[0.501476, -0.865172]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1838.83	2287.86
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1590.9, -922.126]
+Project acceleration onto velocity radial vector:
+a_radial:	[1147.31, -1979.39]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [325.719, -1603.48]
+v_unit_tangencial: [0.924274, 0.381729]
+v_unit_radial:[0.381729, -0.924274]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-311.042	1606.4
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-287.488, -118.734]
+Project acceleration onto velocity radial vector:
+a_radial:	[613.208, -1484.75]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-417.684, -789.677]
+v_unit_tangencial: [0.982001, -0.188874]
+v_unit_radial:[-0.188874, -0.982001]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-261.017	854.353
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-256.319, 49.2994]
+Project acceleration onto velocity radial vector:
+a_radial:	[-161.365, -838.976]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-480.855, 474.797]
+v_unit_tangencial: [0.870202, -0.492695]
+v_unit_radial:[-0.492695, -0.870202]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-652.371	-176.255
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-567.695, 321.42]
+Project acceleration onto velocity radial vector:
+a_radial:	[86.8398, 153.377]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [330.125, 844.228]
+v_unit_tangencial: [0.517005, -0.855982]
+v_unit_radial:[-0.855982, -0.517005]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-551.968	-719.051
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-285.37, 472.475]
+Project acceleration onto velocity radial vector:
+a_radial:	[615.495, 371.753]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-762.651, 1068.1]
+v_unit_tangencial: [-0.356536, -0.934282]
+v_unit_radial:[0.934282, -0.356536]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-725.997	-1093.35
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[258.844, 678.286]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1021.5, 389.817]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-290.243, 972.436]
+v_unit_tangencial: [-0.957192, -0.289452]
+v_unit_radial:[0.289452, -0.957192]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3.65573	-1014.82
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[3.49924, 1.05816]
+Project acceleration onto velocity radial vector:
+a_radial:	[-293.742, 971.378]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-355.03, 745.836]
+v_unit_tangencial: [-0.901766, 0.432224]
+v_unit_radial:[-0.432224, -0.901766]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+642.522	-519.118
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-579.405, 277.713]
+Project acceleration onto velocity radial vector:
+a_radial:	[224.375, 468.123]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-57.2855, -1104.02]
+v_unit_tangencial: [-0.675284, 0.737558]
+v_unit_radial:[-0.737558, -0.675284]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-775.595	787.78
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[523.747, -572.046]
+Project acceleration onto velocity radial vector:
+a_radial:	[-581.033, -531.975]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-309.959, -1402.72]
+v_unit_tangencial: [-0.759819, 0.650135]
+v_unit_radial:[-0.650135, -0.759819]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-676.447	1267.33
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[513.977, -439.782]
+Project acceleration onto velocity radial vector:
+a_radial:	[-823.936, -962.943]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [596.086, -2951.82]
+v_unit_tangencial: [-0.728759, 0.684771]
+v_unit_radial:[-0.684771, -0.728759]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2455.72	1742.98
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1789.63, -1681.61]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1193.54, -1270.21]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-314.933, -4434.43]
+v_unit_tangencial: [-0.716832, 0.697246]
+v_unit_radial:[-0.697246, -0.716832]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2866.14	3398.33
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2054.54, -1998.4]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2369.47, -2436.03]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-651.316, -4923.49]
+v_unit_tangencial: [-0.680484, 0.732763]
+v_unit_radial:[-0.732763, -0.680484]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3164.54	3827.61
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2153.42, -2318.86]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2804.73, -2604.63]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-732.314, -5422.69]
+v_unit_tangencial: [-0.695846, 0.718191]
+v_unit_radial:[-0.718191, -0.695846]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3384.95	4299.3
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2355.4, -2431.04]
+Project acceleration onto velocity radial vector:
+a_radial:	[-3087.72, -2991.65]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-206.278, -4954.2]
+v_unit_tangencial: [-0.671151, 0.741321]
+v_unit_radial:[-0.741321, -0.671151]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3534.21	3477.94
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2371.99, -2619.98]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2578.27, -2334.22]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-45.1758, -5658.05]
+v_unit_tangencial: [-0.710942, 0.703251]
+v_unit_radial:[-0.703251, -0.710942]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3946.91	4054.31
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2806.03, -2775.67]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2851.2, -2882.38]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [894.573, -4523.28]
+v_unit_tangencial: [-0.734635, 0.678462]
+v_unit_radial:[-0.678462, -0.734635]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3726.06	2716.03
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2737.3, -2527.99]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1842.72, -1995.29]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-220.13, -3403.82]
+v_unit_tangencial: [-0.796744, 0.604318]
+v_unit_radial:[-0.604318, -0.796744]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1881.6	2845
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1499.16, -1137.09]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1719.28, -2266.74]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-355.616, -3396.71]
+v_unit_tangencial: [-0.9083, 0.418319]
+v_unit_radial:[-0.418319, -0.9083]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1097.9	3234
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[997.227, -459.274]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1352.84, -2937.44]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [398.061, -1539.72]
+v_unit_tangencial: [-0.97384, 0.227237]
+v_unit_radial:[-0.227237, -0.97384]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-737.529	1408.99
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[718.235, -167.594]
+Project acceleration onto velocity radial vector:
+a_radial:	[-320.174, -1372.13]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [106.164, -544.287]
+v_unit_tangencial: [-0.966423, -0.256957]
+v_unit_radial:[0.256957, -0.966423]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+37.2592	553.291
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-36.0081, -9.574]
+Project acceleration onto velocity radial vector:
+a_radial:	[142.172, -534.713]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [39.474, 404.768]
+v_unit_tangencial: [-0.853385, -0.521282]
+v_unit_radial:[0.521282, -0.853385]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-244.685	-324.846
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[208.81, 127.55]
+Project acceleration onto velocity radial vector:
+a_radial:	[-169.336, 277.218]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [114.355, 1032.05]
+v_unit_tangencial: [-0.409483, -0.912318]
+v_unit_radial:[0.912318, -0.409483]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-988.385	-318.28
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[404.727, 901.721]
+Project acceleration onto velocity radial vector:
+a_radial:	[-290.372, 130.33]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [323.582, 1209.03]
+v_unit_tangencial: [0.00284526, -0.999996]
+v_unit_radial:[-0.999996, -0.00284526]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1208.1	-327.021
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-3.43736, 1208.1]
+Project acceleration onto velocity radial vector:
+a_radial:	[327.019, 0.930459]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [70.9571, 1190.01]
+v_unit_tangencial: [0.747931, -0.663777]
+v_unit_radial:[-0.663777, -0.747931]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-736.827	-937.141
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-551.096, 489.089]
+Project acceleration onto velocity radial vector:
+a_radial:	[622.053, 700.917]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [651.354, 611.384]
+v_unit_tangencial: [0.999964, -0.00851546]
+v_unit_radial:[-0.00851546, -0.999964]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+646.124	-616.908
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[646.1, -5.50204]
+Project acceleration onto velocity radial vector:
+a_radial:	[5.25326, 616.886]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-250.257, 100.87]
+v_unit_tangencial: [0.882225, 0.470829]
+v_unit_radial:[0.470829, -0.882225]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-173.29	-206.818
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-152.881, -81.59]
+Project acceleration onto velocity radial vector:
+a_radial:	[-97.3759, 182.46]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-120.25, -838.196]
+v_unit_tangencial: [0.81496, 0.579517]
+v_unit_radial:[0.579517, -0.81496]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-583.747	613.409
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-475.731, -338.292]
+Project acceleration onto velocity radial vector:
+a_radial:	[355.481, -499.904]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [793.377, -2163.46]
+v_unit_tangencial: [0.760942, 0.64882]
+v_unit_radial:[0.64882, -0.760942]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-799.982	2161.03
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-608.74, -519.044]
+Project acceleration onto velocity radial vector:
+a_radial:	[1402.12, -1644.41]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [163.849, -3952.78]
+v_unit_tangencial: [0.683642, 0.729818]
+v_unit_radial:[0.729818, -0.683642]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2772.79	2821.86
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1895.6, -2023.63]
+Project acceleration onto velocity radial vector:
+a_radial:	[2059.45, -1929.14]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-489.402, -3506.65]
+v_unit_tangencial: [0.723882, 0.689924]
+v_unit_radial:[0.689924, -0.723882]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2773.59	2200.75
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2007.75, -1913.56]
+Project acceleration onto velocity radial vector:
+a_radial:	[1518.35, -1593.08]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [207.962, -4924.01]
+v_unit_tangencial: [0.679384, 0.733783]
+v_unit_radial:[0.733783, -0.679384]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3471.87	3497.89
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2358.73, -2547.6]
+Project acceleration onto velocity radial vector:
+a_radial:	[2566.69, -2376.41]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [108.184, -5050.94]
+v_unit_tangencial: [0.72038, 0.69358]
+v_unit_radial:[0.69358, -0.72038]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3425.3	3713.63
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2467.51, -2375.72]
+Project acceleration onto velocity radial vector:
+a_radial:	[2575.7, -2675.23]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [619.736, -5338.78]
+v_unit_tangencial: [0.759968, 0.649961]
+v_unit_radial:[0.649961, -0.759968]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2999.02	4460.11
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2279.16, -1949.24]
+Project acceleration onto velocity radial vector:
+a_radial:	[2898.89, -3389.54]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [458.399, -4393.48]
+v_unit_tangencial: [0.773915, 0.633289]
+v_unit_radial:[0.633289, -0.773915]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2427.58	3690.48
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1878.74, -1537.36]
+Project acceleration onto velocity radial vector:
+a_radial:	[2337.14, -2856.12]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-20.0744, -4117.24]
+v_unit_tangencial: [0.758686, 0.651457]
+v_unit_radial:[0.651457, -0.758686]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2697.43	3110.61
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2046.5, -1757.26]
+Project acceleration onto velocity radial vector:
+a_radial:	[2026.43, -2359.98]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-521.739, -2675.51]
+v_unit_tangencial: [0.925598, 0.378509]
+v_unit_radial:[0.378509, -0.925598]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1495.63	2278.97
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1384.35, -566.108]
+Project acceleration onto velocity radial vector:
+a_radial:	[862.61, -2109.41]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-434.291, -1663.29]
+v_unit_tangencial: [0.957685, 0.287819]
+v_unit_radial:[0.287819, -0.957685]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-894.64	1467.91
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-856.783, -257.494]
+Project acceleration onto velocity radial vector:
+a_radial:	[422.492, -1405.8]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [19.6782, -942.621]
+v_unit_tangencial: [0.97392, -0.22689]
+v_unit_radial:[-0.22689, -0.97392]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+233.036	913.573
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[226.959, -52.8736]
+Project acceleration onto velocity radial vector:
+a_radial:	[-207.281, -889.748]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-182.453, 1156.16]
+v_unit_tangencial: [0.748533, -0.663098]
+v_unit_radial:[-0.663098, -0.748533]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-903.217	-744.437
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-676.087, 598.921]
+Project acceleration onto velocity radial vector:
+a_radial:	[493.635, 557.236]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [-484.454, 1254.35]
+v_unit_tangencial: [0.392311, -0.919832]
+v_unit_radial:[-0.919832, -0.392311]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1343.85	-46.478
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-527.206, 1236.11]
+Project acceleration onto velocity radial vector:
+a_radial:	[42.752, 18.2339]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [-111.801, 1656.19]
+v_unit_tangencial: [0.057346, -0.998354]
+v_unit_radial:[-0.998354, -0.057346]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1659.88	16.6412
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-95.1873, 1657.14]
+Project acceleration onto velocity radial vector:
+a_radial:	[-16.6139, -0.954309]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-387.248, 1948.98]
+v_unit_tangencial: [-0.486943, -0.873434]
+v_unit_radial:[0.873434, -0.486943]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1513.74	-1287.28
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[737.104, 1322.15]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1124.35, 626.83]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-5.28917, 1865.31]
+v_unit_tangencial: [-0.94884, -0.315757]
+v_unit_radial:[0.315757, -0.94884]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-583.965	-1771.55
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[554.089, 184.391]
+Project acceleration onto velocity radial vector:
+a_radial:	[-559.378, 1680.92]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [541.489, 643.14]
+v_unit_tangencial: [-0.936441, 0.350824]
+v_unit_radial:[-0.350824, -0.936441]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-281.444	-792.231
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[263.556, -98.7372]
+Project acceleration onto velocity radial vector:
+a_radial:	[277.933, 741.878]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-170.317, -1060.05]
+v_unit_tangencial: [-0.807595, 0.589738]
+v_unit_radial:[-0.589738, -0.807595]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-487.604	956.532
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[393.786, -287.558]
+Project acceleration onto velocity radial vector:
+a_radial:	[-564.103, -772.49]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-246.366, -1993.19]
+v_unit_tangencial: [-0.827947, 0.560807]
+v_unit_radial:[-0.560807, -0.827947]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-913.816	1788.42
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[756.591, -512.474]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1002.96, -1480.71]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [131.142, -2935.4]
+v_unit_tangencial: [-0.722493, 0.691378]
+v_unit_radial:[-0.691378, -0.722493]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2124.22	2030.14
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1534.73, -1468.64]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1403.59, -1466.76]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [1008.81, -4568.51]
+v_unit_tangencial: [-0.731206, 0.682156]
+v_unit_radial:[-0.682156, -0.731206]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3854.09	2652.36
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2818.13, -2629.09]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1809.32, -1939.42]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [78.7538, -5082.05]
+v_unit_tangencial: [-0.756283, 0.654245]
+v_unit_radial:[-0.654245, -0.756283]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3384.47	3791.94
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2559.61, -2214.27]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2480.86, -2867.78]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [45.3387, -5091.76]
+v_unit_tangencial: [-0.724201, 0.689588]
+v_unit_radial:[-0.689588, -0.724201]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3544.05	3656.2
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2566.61, -2443.94]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2521.27, -2647.82]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [-88.0789, -5036.17]
+v_unit_tangencial: [-0.721396, 0.692523]
+v_unit_radial:[-0.692523, -0.721396]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3424.12	3694.07
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2470.15, -2371.28]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2558.23, -2664.89]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [213.426, -4364.15]
+v_unit_tangencial: [-0.764286, 0.644877]
+v_unit_radial:[-0.644877, -0.764286]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2977.46	3197.82
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2275.63, -1920.09]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2062.2, -2444.05]
+-----------------------------------------------------
+
+
+time elapsed:      0.09 s
+Acceleration in x and y axis is: [283.63, -4680.66]
+v_unit_tangencial: [-0.763311, 0.646032]
+v_unit_radial:[-0.646032, -0.763311]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3240.35	3389.56
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[2473.39, -2093.37]
+Project acceleration onto velocity radial vector:
+a_radial:	[-2189.76, -2587.29]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [934.216, -3005.54]
+v_unit_tangencial: [-0.878097, 0.478482]
+v_unit_radial:[-0.478482, -0.878097]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2258.43	2192.15
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1983.12, -1080.62]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1048.91, -1924.92]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [14.9324, -1589.6]
+v_unit_tangencial: [-0.942354, 0.334618]
+v_unit_radial:[-0.334618, -0.942354]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-545.981	1492.97
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[514.507, -182.695]
+Project acceleration onto velocity radial vector:
+a_radial:	[-499.575, -1406.91]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [222.09, -1164.29]
+v_unit_tangencial: [-0.998622, -0.0524821]
+v_unit_radial:[0.0524821, -0.998622]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-160.68	1174.34
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[160.458, 8.43281]
+Project acceleration onto velocity radial vector:
+a_radial:	[61.6318, -1172.72]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [520.283, -113.403]
+v_unit_tangencial: [-0.875779, -0.482713]
+v_unit_radial:[0.482713, -0.875779]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-400.911	350.463
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[351.11, 193.525]
+Project acceleration onto velocity radial vector:
+a_radial:	[169.173, -306.928]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [110.175, 1109.43]
+v_unit_tangencial: [-0.422415, -0.906402]
+v_unit_radial:[0.906402, -0.422415]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1052.13	-368.776
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[444.434, 953.65]
+Project acceleration onto velocity radial vector:
+a_radial:	[-334.259, 155.777]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-12.054, 1778.44]
+v_unit_tangencial: [-0.121721, -0.992564]
+v_unit_radial:[0.992564, -0.121721]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1763.75	-228.439
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[214.686, 1750.64]
+Project acceleration onto velocity radial vector:
+a_radial:	[-226.74, 27.8059]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [353.933, 2014.56]
+v_unit_tangencial: [0.239364, -0.97093]
+v_unit_radial:[-0.97093, -0.239364]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1871.28	-825.858
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-447.917, 1816.88]
+Project acceleration onto velocity radial vector:
+a_radial:	[801.85, 197.681]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [270.684, 1757.82]
+v_unit_tangencial: [0.782299, -0.622903]
+v_unit_radial:[-0.622903, -0.782299]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-883.194	-1543.75
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-690.922, 550.144]
+Project acceleration onto velocity radial vector:
+a_radial:	[961.606, 1207.67]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-50.5627, 1092.4]
+v_unit_tangencial: [0.999922, 0.0124768]
+v_unit_radial:[0.0124768, -0.999922]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-36.9291	-1092.95
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-36.9262, -0.460758]
+Project acceleration onto velocity radial vector:
+a_radial:	[-13.6365, 1092.86]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [511.037, -285.138]
+v_unit_tangencial: [0.926533, 0.376215]
+v_unit_radial:[0.376215, -0.926533]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+366.22	456.449
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[339.314, 137.777]
+Project acceleration onto velocity radial vector:
+a_radial:	[171.723, -422.915]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [38.9194, -1293.36]
+v_unit_tangencial: [0.826583, 0.562815]
+v_unit_radial:[0.562815, -0.826583]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-695.753	1090.98
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-575.098, -391.58]
+Project acceleration onto velocity radial vector:
+a_radial:	[614.017, -901.782]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-347.232, -2104.04]
+v_unit_tangencial: [0.74594, 0.666014]
+v_unit_radial:[0.666014, -0.74594]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1660.33	1338.23
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1238.51, -1105.8]
+Project acceleration onto velocity radial vector:
+a_radial:	[891.276, -998.236]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [468.862, -3813.54]
+v_unit_tangencial: [0.794012, 0.607903]
+v_unit_radial:[0.607903, -0.794012]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1945.98	3313.02
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1545.13, -1182.97]
+Project acceleration onto velocity radial vector:
+a_radial:	[2013.99, -2630.58]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [362.202, -4081.78]
+v_unit_tangencial: [0.724715, 0.689049]
+v_unit_radial:[0.689049, -0.724715]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2550.05	3207.7
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1848.06, -1757.11]
+Project acceleration onto velocity radial vector:
+a_radial:	[2210.26, -2324.67]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [187.6, -4193.64]
+v_unit_tangencial: [0.737058, 0.675829]
+v_unit_radial:[0.675829, -0.737058]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2695.91	3217.74
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1987.05, -1821.98]
+Project acceleration onto velocity radial vector:
+a_radial:	[2174.65, -2371.66]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-261.86, -4876.23]
+v_unit_tangencial: [0.757354, 0.653005]
+v_unit_radial:[0.653005, -0.757354]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3382.52	3522.04
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-2561.77, -2208.8]
+Project acceleration onto velocity radial vector:
+a_radial:	[2299.91, -2667.43]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [47.7105, -4299.08]
+v_unit_tangencial: [0.820446, 0.571725]
+v_unit_radial:[0.571725, -0.820446]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2418.75	3554.44
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1984.45, -1382.86]
+Project acceleration onto velocity radial vector:
+a_radial:	[2032.16, -2916.23]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [20.1192, -3468.07]
+v_unit_tangencial: [0.822374, 0.568947]
+v_unit_radial:[0.568947, -0.822374]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1956.6	2863.5
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1609.06, -1113.2]
+Project acceleration onto velocity radial vector:
+a_radial:	[1629.18, -2354.87]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [189.185, -2790.15]
+v_unit_tangencial: [0.923378, 0.383891]
+v_unit_radial:[0.383891, -0.923378]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-896.426	2648.99
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-827.74, -344.13]
+Project acceleration onto velocity radial vector:
+a_radial:	[1016.93, -2446.02]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-325.289, -1680.45]
+v_unit_tangencial: [0.991878, 0.12719]
+v_unit_radial:[0.12719, -0.991878]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-536.384	1625.43
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-532.028, -68.2228]
+Project acceleration onto velocity radial vector:
+a_radial:	[206.739, -1612.23]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-25.8329, -224.106]
+v_unit_tangencial: [0.963706, -0.266967]
+v_unit_radial:[-0.266967, -0.963706]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+34.9334	222.868
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[33.6655, -9.32606]
+Project acceleration onto velocity radial vector:
+a_radial:	[-59.4984, -214.779]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-229.327, 494.449]
+v_unit_tangencial: [0.57546, -0.81783]
+v_unit_radial:[-0.81783, -0.57546]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-536.344	-96.9853
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-308.645, 438.638]
+Project acceleration onto velocity radial vector:
+a_radial:	[79.3175, 55.8112]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [463.523, 2004.46]
+v_unit_tangencial: [0.477898, -0.878415]
+v_unit_radial:[-0.878415, -0.477898]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1539.24	-1365.1
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-735.597, 1352.09]
+Project acceleration onto velocity radial vector:
+a_radial:	[1199.12, 652.376]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [455.786, 2861.14]
+v_unit_tangencial: [0.0623034, -0.998057]
+v_unit_radial:[-0.998057, -0.0623034]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2827.18	-633.16
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-176.143, 2821.69]
+Project acceleration onto velocity radial vector:
+a_radial:	[631.93, 39.448]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-60.972, 2753.42]
+v_unit_tangencial: [-0.223487, -0.974707]
+v_unit_radial:[0.974707, -0.223487]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2670.15	-674.783
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[596.744, 2602.62]
+Project acceleration onto velocity radial vector:
+a_radial:	[-657.716, 150.805]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-114.671, 2410.53]
+v_unit_tangencial: [-0.656082, -0.75469]
+v_unit_radial:[0.75469, -0.656082]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1743.97	-1668.04
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1144.18, 1316.15]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1258.86, 1094.37]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-41.9381, 1548.64]
+v_unit_tangencial: [-0.907048, -0.421027]
+v_unit_radial:[0.421027, -0.907048]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-613.979	-1422.35
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[556.909, 258.502]
+Project acceleration onto velocity radial vector:
+a_radial:	[-598.847, 1290.14]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-201.764, 866.411]
+v_unit_tangencial: [-0.998457, 0.0555308]
+v_unit_radial:[-0.0555308, -0.998457]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+249.565	-853.87
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-249.18, 13.8585]
+Project acceleration onto velocity radial vector:
+a_radial:	[47.4161, 852.552]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-695.406, -21.4106]
+v_unit_tangencial: [-0.954533, 0.298106]
+v_unit_radial:[-0.298106, -0.954533]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+657.405	227.742
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-627.515, 195.976]
+Project acceleration onto velocity radial vector:
+a_radial:	[-67.8911, -217.387]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-830.192, -1447.06]
+v_unit_tangencial: [-0.874253, 0.485471]
+v_unit_radial:[-0.485471, -0.874253]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+23.2908	1668.13
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-20.3621, 11.307]
+Project acceleration onto velocity radial vector:
+a_radial:	[-809.83, -1458.37]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [437.446, -2262.54]
+v_unit_tangencial: [-0.872875, 0.487944]
+v_unit_radial:[-0.487944, -0.872875]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1485.83	1761.46
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1296.94, -725.002]
+Project acceleration onto velocity radial vector:
+a_radial:	[-859.497, -1537.54]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [313.845, -3313.35]
+v_unit_tangencial: [-0.823614, 0.567151]
+v_unit_radial:[-0.567151, -0.823614]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2137.66	2550.92
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1760.6, -1212.37]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1446.76, -2100.98]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [259.917, -2993.86]
+v_unit_tangencial: [-0.825306, 0.564686]
+v_unit_radial:[-0.564686, -0.825306]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1905.1	2324.08
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1572.29, -1075.79]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1312.38, -1918.08]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [20.3402, -3847.75]
+v_unit_tangencial: [-0.871166, 0.490988]
+v_unit_radial:[-0.490988, -0.871166]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1906.92	3342.04
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1661.24, -936.273]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1640.9, -2911.48]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-93.4522, -2987.32]
+v_unit_tangencial: [-0.88093, 0.473247]
+v_unit_radial:[-0.473247, -0.88093]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1331.42	2675.84
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1172.88, -630.089]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1266.34, -2357.23]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-339.539, -2875.42]
+v_unit_tangencial: [-0.889845, 0.456264]
+v_unit_radial:[-0.456264, -0.889845]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1009.81	2713.6
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[898.576, -460.74]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1238.11, -2414.68]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [45.3736, -1854.14]
+v_unit_tangencial: [-0.970525, 0.240999]
+v_unit_radial:[-0.240999, -0.970525]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-490.884	1788.56
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[476.415, -118.303]
+Project acceleration onto velocity radial vector:
+a_radial:	[-431.042, -1735.84]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [485.801, -769.454]
+v_unit_tangencial: [-0.999979, -0.0064543]
+v_unit_radial:[0.0064543, -0.999979]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-480.824	772.573
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[480.814, 3.10338]
+Project acceleration onto velocity radial vector:
+a_radial:	[4.98642, -772.557]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [56.5872, 444.019]
+v_unit_tangencial: [-0.900374, -0.435118]
+v_unit_radial:[0.435118, -0.900374]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-244.15	-375.161
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[219.826, 106.234]
+Project acceleration onto velocity radial vector:
+a_radial:	[-163.239, 337.785]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [755.614, 1315.38]
+v_unit_tangencial: [-0.667949, -0.744207]
+v_unit_radial:[0.744207, -0.667949]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1483.63	-316.275
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[990.988, 1104.13]
+Project acceleration onto velocity radial vector:
+a_radial:	[-235.374, 211.255]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [328.635, 2041.88]
+v_unit_tangencial: [-0.377172, -0.926143]
+v_unit_radial:[0.926143, -0.377172]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2015.03	-465.778
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[760.012, 1866.2]
+Project acceleration onto velocity radial vector:
+a_radial:	[-431.377, 175.678]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [239.617, 2797.74]
+v_unit_tangencial: [-0.156761, -0.987636]
+v_unit_radial:[0.987636, -0.156761]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2800.72	-201.924
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[439.044, 2766.09]
+Project acceleration onto velocity radial vector:
+a_radial:	[-199.427, 31.6539]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [62.125, 3044.16]
+v_unit_tangencial: [0.128449, -0.991716]
+v_unit_radial:[-0.991716, -0.128449]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3010.96	-452.628
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-386.754, 2986.02]
+Project acceleration onto velocity radial vector:
+a_radial:	[448.879, 58.1395]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [268.169, 3280.57]
+v_unit_tangencial: [0.476905, -0.878955]
+v_unit_radial:[-0.878955, -0.476905]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2755.58	-1800.23
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1314.15, 2422.03]
+Project acceleration onto velocity radial vector:
+a_radial:	[1582.32, 858.541]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [454.494, 2528.66]
+v_unit_tangencial: [0.627264, -0.778806]
+v_unit_radial:[-0.778806, -0.627264]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1684.25	-1940.1
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1056.47, 1311.7]
+Project acceleration onto velocity radial vector:
+a_radial:	[1510.96, 1216.96]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [2.74313, 2244.53]
+v_unit_tangencial: [0.95744, -0.288633]
+v_unit_radial:[-0.288633, -0.95744]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-645.22	-2149.8
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-617.759, 186.232]
+Project acceleration onto velocity radial vector:
+a_radial:	[620.502, 2058.3]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-238.997, 344.736]
+v_unit_tangencial: [0.998163, 0.060589]
+v_unit_radial:[0.060589, -0.998163]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-217.671	-358.584
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-217.271, -13.1885]
+Project acceleration onto velocity radial vector:
+a_radial:	[-21.7262, 357.925]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [39.168, -131.024]
+v_unit_tangencial: [0.922422, 0.386183]
+v_unit_radial:[0.386183, -0.922422]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-14.4699	135.986
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-13.3474, -5.58803]
+Project acceleration onto velocity radial vector:
+a_radial:	[52.5154, -125.436]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [247.612, -1671.74]
+v_unit_tangencial: [0.9028, 0.430061]
+v_unit_radial:[0.430061, -0.9028]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-495.405	1615.73
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-447.251, -213.054]
+Project acceleration onto velocity radial vector:
+a_radial:	[694.863, -1458.68]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [177.044, -1344.75]
+v_unit_tangencial: [0.897952, 0.440093]
+v_unit_radial:[0.440093, -0.897952]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-432.836	1285.43
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-388.666, -190.488]
+Project acceleration onto velocity radial vector:
+a_radial:	[565.71, -1154.26]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [572.813, -2366.09]
+v_unit_tangencial: [0.847241, 0.531209]
+v_unit_radial:[0.531209, -0.847241]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-771.577	2308.93
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-653.711, -409.869]
+Project acceleration onto velocity radial vector:
+a_radial:	[1226.52, -1956.22]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-5.21852, -2758.82]
+v_unit_tangencial: [0.909156, 0.416455]
+v_unit_radial:[0.416455, -0.909156]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1153.67	2506.02
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1048.86, -480.45]
+Project acceleration onto velocity radial vector:
+a_radial:	[1043.65, -2278.37]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-253.699, -2898.11]
+v_unit_tangencial: [0.908632, 0.417598]
+v_unit_radial:[0.417598, -0.908632]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1440.77	2527.37
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1309.13, -601.661]
+Project acceleration onto velocity radial vector:
+a_radial:	[1055.43, -2296.45]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-126.132, -2252.49]
+v_unit_tangencial: [0.966192, 0.257822]
+v_unit_radial:[0.257822, -0.966192]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-702.61	2143.82
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-678.856, -181.148]
+Project acceleration onto velocity radial vector:
+a_radial:	[552.724, -2071.34]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-989.278, -1517.78]
+v_unit_tangencial: [0.997534, 0.0701863]
+v_unit_radial:[0.0701863, -0.997534]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1093.37	1444.61
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1090.67, -76.7393]
+Project acceleration onto velocity radial vector:
+a_radial:	[101.392, -1441.04]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-440.984, -375.767]
+v_unit_tangencial: [0.955373, -0.295401]
+v_unit_radial:[-0.295401, -0.955373]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-310.302	489.265
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-296.455, 91.6635]
+Project acceleration onto velocity radial vector:
+a_radial:	[-144.529, -467.43]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-289.076, 1163.04]
+v_unit_tangencial: [0.810534, -0.585692]
+v_unit_radial:[-0.585692, -0.810534]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-915.488	-773.372
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-742.034, 536.194]
+Project acceleration onto velocity radial vector:
+a_radial:	[452.958, 626.844]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [251.607, 2008.14]
+v_unit_tangencial: [0.501403, -0.865214]
+v_unit_radial:[-0.865214, -0.501403]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1611.32	-1224.58
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-807.919, 1394.13]
+Project acceleration onto velocity radial vector:
+a_radial:	[1059.53, 614.009]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-301.677, 3090.76]
+v_unit_tangencial: [0.27657, -0.960994]
+v_unit_radial:[-0.960994, -0.27657]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3053.64	-564.901
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-844.543, 2934.53]
+Project acceleration onto velocity radial vector:
+a_radial:	[542.866, 156.234]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [21.1648, 3663.67]
+v_unit_tangencial: [0.0319504, -0.999489]
+v_unit_radial:[-0.999489, -0.0319504]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3661.12	-138.21
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-116.974, 3659.25]
+Project acceleration onto velocity radial vector:
+a_radial:	[138.139, 4.41585]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [222.108, 3559.01]
+v_unit_tangencial: [-0.0645349, -0.997915]
+v_unit_radial:[0.997915, -0.0645349]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3565.92	-8.03487
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[230.126, 3558.49]
+Project acceleration onto velocity radial vector:
+a_radial:	[-8.01812, 0.518529]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-454.394, 3918.83]
+v_unit_tangencial: [-0.212993, -0.977054]
+v_unit_radial:[0.977054, -0.212993]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-3732.12	-1278.65
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[794.916, 3646.48]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1249.31, 272.344]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-199.615, 3169.63]
+v_unit_tangencial: [-0.610498, -0.792018]
+v_unit_radial:[0.792018, -0.610498]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2388.54	-2093.15
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1458.2, 1891.76]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1657.81, 1277.86]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-415.428, 2251.86]
+v_unit_tangencial: [-0.859665, -0.510858]
+v_unit_radial:[0.510858, -0.859665]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-793.251	-2148.07
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[681.93, 405.239]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1097.36, 1846.62]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-411.67, 1280.09]
+v_unit_tangencial: [-0.999689, -0.0249488]
+v_unit_radial:[0.0249488, -0.999689]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+379.605	-1289.96
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-379.487, -9.47069]
+Project acceleration onto velocity radial vector:
+a_radial:	[-32.183, 1289.56]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-15.6977, 80.2065]
+v_unit_tangencial: [-0.96059, 0.27797]
+v_unit_radial:[-0.27797, -0.96059]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+37.374	-72.6821
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-35.9011, 10.3888]
+Project acceleration onto velocity radial vector:
+a_radial:	[20.2034, 69.8177]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-214.08, -780.802]
+v_unit_tangencial: [-0.868157, 0.49629]
+v_unit_radial:[-0.49629, -0.868157]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-201.649	784.104
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[175.063, -100.076]
+Project acceleration onto velocity radial vector:
+a_radial:	[-389.143, -680.726]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-657.923, -2129.95]
+v_unit_tangencial: [-0.861645, 0.507511]
+v_unit_radial:[-0.507511, -0.861645]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-514.076	2169.16
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[442.951, -260.899]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1100.87, -1869.05]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [100.38, -3075.19]
+v_unit_tangencial: [-0.869485, 0.493959]
+v_unit_radial:[-0.493959, -0.869485]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1606.3	2624.25
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1396.65, -793.445]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1296.27, -2281.74]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-265.355, -3104.82]
+v_unit_tangencial: [-0.879875, 0.475205]
+v_unit_radial:[-0.475205, -0.879875]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1241.95	2857.95
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1092.76, -590.179]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1358.11, -2514.64]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-107.474, -3116]
+v_unit_tangencial: [-0.882745, 0.469852]
+v_unit_radial:[-0.469852, -0.882745]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1369.18	2801.13
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[1208.64, -643.314]
+Project acceleration onto velocity radial vector:
+a_radial:	[-1316.12, -2472.68]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [66.3846, -2320.08]
+v_unit_tangencial: [-0.890577, 0.454832]
+v_unit_radial:[-0.454832, -0.890577]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1114.37	2036.02
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[992.432, -506.851]
+Project acceleration onto velocity radial vector:
+a_radial:	[-926.048, -1813.23]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-240.475, -2023.54]
+v_unit_tangencial: [-0.937408, 0.348233]
+v_unit_radial:[-0.348233, -0.937408]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-479.242	1980.63
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[449.246, -166.888]
+Project acceleration onto velocity radial vector:
+a_radial:	[-689.721, -1856.66]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-488.487, -1344.73]
+v_unit_tangencial: [-0.995858, 0.0909274]
+v_unit_radial:[-0.0909274, -0.995858]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+364.191	1383.57
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-362.683, 33.115]
+Project acceleration onto velocity radial vector:
+a_radial:	[-125.805, -1377.84]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [285.598, -342.656]
+v_unit_tangencial: [-0.969467, -0.245224]
+v_unit_radial:[0.245224, -0.969467]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-192.851	402.229
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[186.962, 47.2916]
+Project acceleration onto velocity radial vector:
+a_radial:	[98.636, -389.947]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [142.196, 745.272]
+v_unit_tangencial: [-0.754331, -0.656494]
+v_unit_radial:[0.656494, -0.754331]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-596.53	-468.831
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[449.981, 391.619]
+Project acceleration onto velocity radial vector:
+a_radial:	[-307.785, 353.654]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-233.012, 1807.93]
+v_unit_tangencial: [-0.492662, -0.870221]
+v_unit_radial:[0.870221, -0.492662]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1458.5	-1093.47
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[718.548, 1269.22]
+Project acceleration onto velocity radial vector:
+a_radial:	[-951.561, 538.711]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [41.8029, 2292.44]
+v_unit_tangencial: [-0.297812, -0.954624]
+v_unit_radial:[0.954624, -0.297812]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2200.86	-642.81
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[655.445, 2101]
+Project acceleration onto velocity radial vector:
+a_radial:	[-613.642, 191.437]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [400.466, 2464]
+v_unit_tangencial: [0.00573581, -0.999984]
+v_unit_radial:[-0.999984, -0.00573581]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2461.66	-414.592
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-14.1196, 2461.62]
+Project acceleration onto velocity radial vector:
+a_radial:	[414.585, 2.37802]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [329.63, 2472.22]
+v_unit_tangencial: [0.261741, -0.965138]
+v_unit_radial:[-0.965138, -0.261741]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-2299.75	-965.219
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-601.94, 2219.58]
+Project acceleration onto velocity radial vector:
+a_radial:	[931.569, 252.637]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [67.9869, 2077.44]
+v_unit_tangencial: [0.69681, -0.717256]
+v_unit_radial:[-0.717256, -0.69681]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1442.68	-1496.34
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1005.27, 1034.77]
+Project acceleration onto velocity radial vector:
+a_radial:	[1073.26, 1042.67]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-201.783, 1838.76]
+v_unit_tangencial: [0.968525, -0.248918]
+v_unit_radial:[-0.248918, -0.968525]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-653.13	-1730.65
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-632.573, 162.576]
+Project acceleration onto velocity radial vector:
+a_radial:	[430.79, 1676.18]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-85.8576, 570.241]
+v_unit_tangencial: [0.991729, 0.128353]
+v_unit_radial:[0.128353, -0.991729]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-11.9553	-576.544
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-11.8564, -1.5345]
+Project acceleration onto velocity radial vector:
+a_radial:	[-74.0012, 571.775]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [187.265, -647.187]
+v_unit_tangencial: [0.941789, 0.336204]
+v_unit_radial:[0.336204, -0.941789]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-41.2224	672.473
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-38.8229, -13.8591]
+Project acceleration onto velocity radial vector:
+a_radial:	[226.088, -633.328]
+-----------------------------------------------------
+
+
+time elapsed:      0.10 s
+Acceleration in x and y axis is: [-326.238, -1802.86]
+v_unit_tangencial: [0.860045, 0.510219]
+v_unit_radial:[0.510219, -0.860045]
+They are perpendicular.
+-----------------------------------------------------
+Dot product using a.dot(v)
+dot_tangencial	dot_radial
+-1200.43	1384.09
+-----------------------------------------------------
+Project acceleration onto velocity tangencial vector:
+a_tangencial:	[-1032.43, -612.484]
+Project acceleration onto velocity radial vector:
+a_radial:	[706.188, -1190.38]
+-----------------------------------------------------
+
+

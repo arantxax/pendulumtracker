@@ -16,7 +16,7 @@ What I got so far:
 8. Calculate and expose velocity:  (i) calculate backwards, forward or midpoint (chosen) velocity based on the future and on the past; (ii) in order to show it, use only a x or y component: arrowedLine (center, center + vx) or (center, center + vy);
 9. Calculate and expose acceleration: use finite elements principle (a[i] = r[i+2] - 2r[i+1] + r[i]). Expose acceleration depends on vector projection onto radial and tangencial directions;
 
-| col 1      | col 2      |
+| Pendulum trajectory is roughly near between frames | Positition in x axis is periodical      |
 |------------|-------------| 
 |<img src="x_y_oneshot" width="250"> | <img src="x_t_oneshot" width="250">|
 <br>

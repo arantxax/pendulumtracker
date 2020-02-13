@@ -16,17 +16,10 @@ What I got so far:
 8. Calculate and expose velocity:  (i) calculate backwards, forward or midpoint (chosen) velocity based on the future and on the past; (ii) in order to show it, use only a x or y component: arrowedLine (center, center + vx) or (center, center + vy);
 9. Calculate and expose acceleration: use finite elements principle (a[i] = r[i+2] - 2r[i+1] + r[i]). Expose acceleration depends on vector projection onto radial and tangencial directions;
 
- ![Hey](arantxax.github.com/pendulum-opencv/img/x_y_oneshot.png)
- ![alt text](https://github.com/arantxax/pendulum-opencv/blob/master/x_y_oneshot.png)
- ![trying](https://raw.githubusercontent.com/arantxax/pendulum-opencv/blob/master/x_y_oneshot.png)
- https://github.com/arantxax/pendulum-opencv/blob/master/x_y_oneshot.png
- ![Screenshot](x_y_oneshot.png)
-![Cat](https://raw.githubusercontent.com/paulmelnikow/zsh-startup-timer/3923c60fc66d4223ccf063d169ccf2ff167b1270/cat.png)
-![stack Overflow](https://github.com/arantxax/pendulum-opencv/blob/master/x_y_oneshot.png)
 <br>
-<img height="700" src="https://github.com/arantxax/pendulum-opencv/blob/master/x_y_oneshot.png" />
+<img src="x_y_oneshot" width="250"> | <img src=" 	x_t_oneshot" width="250">
 <br>
-<img src="x_y_oneshot" width="250"> | <img src="https://mk0jobadderjftub56m0.kinstacdn.com/wp-content/uploads/stackoverflow.com-300.jpg" width="250">
+<img src="vx_t_multipleshots width="250">
 
 
 (Tangencial unitary vector) ŧ ⟂ ř (Radial unitary vector)

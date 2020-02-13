@@ -16,15 +16,14 @@ What I got so far:
 8. Calculate and expose velocity:  (i) calculate backwards, forward or midpoint (chosen) velocity based on the future and on the past; (ii) in order to show it, use only a x or y component: arrowedLine (center, center + vx) or (center, center + vy);
 9. Calculate and expose acceleration: use finite elements principle (a[i] = r[i+2] - 2r[i+1] + r[i]). Expose acceleration depends on vector projection onto radial and tangencial directions;
 
-| Trajectory is roughly the same | Positition in x axis is periodical |
+| Trajectory is roughly the same | Position in x axis is periodical |
 |------------|-------------| 
-|<img src="x_y_oneshot" width="250"> | <img src="x_t_oneshot" width="250">|
+|<img src="x_y_oneshot" width="400"> | <img src="x_t_oneshot" width="400">|
 
-#TableView
-<br>
-#TAbleView
-<img src="vx_t_multipleshots" width="250">
-<br>
+| Vx is also periodical and the same | Acceleration |
+|------------|-------------| 
+|<img src="vx_t_multipleshots" width="400"> | <img src="vx_t_multipleshots" width="400">|
+
 
 
 (Tangencial unitary vector) ŧ ⟂ ř (Radial unitary vector)

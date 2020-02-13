@@ -33,4 +33,4 @@ https://youtu.be/uV2xElP7mIY
 
 [![Watch the video](http://www.cdfis.ufpr.br/portal/wp-content/uploads/2017/08/fibra-branco.jpg)](https://youtu.be/uV2xElP7mIY)
 
-[![AAA](http://www.cdfis.ufpr.br/portal/wp-content/uploads/2017/08/fibra-branco.jpg)](https://www.youtube.com/watch?v=ek1j272iAmc)
+[![AAA](http://www.cdfis.ufpr.br/portal/wp-content/uploads/2017/08/fibra-branco.jpg)](https://youtu.be/uV2xElP7mIY)

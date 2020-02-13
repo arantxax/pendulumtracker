@@ -16,7 +16,8 @@ What I got so far:
 8. Calculate and expose velocity:  (i) calculate backwards, forward or midpoint (chosen) velocity based on the future and on the past; (ii) in order to show it, use only a x or y component: arrowedLine (center, center + vx) or (center, center + vy);
 9. Calculate and expose acceleration: use finite elements principle (a[i] = r[i+2] - 2r[i+1] + r[i]). Expose acceleration depends on vector projection onto radial and tangencial directions;
 
- ![My image](arantxax.github.com/pendulum-opencv/img/x_y_oneshot.png)
+ ![Hey](arantxax.github.com/pendulum-opencv/img/x_y_oneshot.png)
+ ![alt text](https://github.com/arantxax/pendulum-opencv/blob/master/x_y_oneshot.png)
 
 (Tangencial unitary vector) ŧ ⟂ ř (Radial unitary vector)
 

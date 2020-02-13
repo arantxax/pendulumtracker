@@ -30,3 +30,5 @@ https://youtu.be/uV2xElP7mIY
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uV2xElP7mIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/uV2xElP7mIY)

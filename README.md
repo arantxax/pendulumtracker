@@ -20,6 +20,7 @@ What I got so far:
  ![alt text](https://github.com/arantxax/pendulum-opencv/blob/master/x_y_oneshot.png)
  ![trying](https://raw.githubusercontent.com/arantxax/pendulum-opencv/blob/master/x_y_oneshot.png)
  https://github.com/arantxax/pendulum-opencv/blob/master/x_y_oneshot.png
+ ![Screenshot](x_y_oneshot.png)
 
 (Tangencial unitary vector) ŧ ⟂ ř (Radial unitary vector)
 

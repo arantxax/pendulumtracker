@@ -237,7 +237,6 @@ int main(){
 
 	  //Draw it on frame
 	  rectangle(frame, track_window, Scalar(0,240,255), 2);
-	  imshow("frame", frame);
 
 	  //get track_window position
 	  double xmin = track_window.x;
@@ -272,17 +271,17 @@ int main(){
 
 	  //![Position]
 	  if (i < 4) {
-	  	//cout << "Storing the first five displacement's data..." << endl;
+	  	cout << "Storing the first five displacement's data..." << endl;
 	  	X[i] = cx;
 	  	Y[i] = cy;
 	  }
 
 	  if (i >= 4){
-	  	//cout << "Updating last position' data..." << endl;
+	  	cout << "Updating last position' data..." << endl;
 	  	X[4] = cx;
 	  	Y[4] = cy;
 	  	//cout << "------------------------------------------" << endl;
-	  	//cout << "Now the X vector is: " << endl;
+	  	cout << "Now the X vector is: " << endl;
 	  	for (int j=0; j<5; j++){
 	  	//cout << X[j] << "\t";
 	  	}
@@ -295,7 +294,7 @@ int main(){
 	  	///Position
 	  	dx = X[3]-X[1];
 		dy = Y[3]-Y[1];		  		
-		//cout << "dx = X[3]-X[1] = " << X[3] << " - " << X[1] << "= " << dx << endl;
+		cout << "dx = X[3]-X[1] = " << X[3] << " - " << X[1] << "= " << dx << endl;
 		//![Displacement]
 
 		//![Velocity]
@@ -303,7 +302,7 @@ int main(){
 		vx = dx/(2*dt);
 		vy = dy/(2*dt);
 		v = {vx, vy};
-		//cout << "vx = " << dx << "/(2*" << dt << ") = " << vx << endl;
+		cout << "vx = " << dx << "/(2*" << dt << ") = " << vx << endl;
 		//![Velocity]
 
 		//![Acceleration]
@@ -383,8 +382,8 @@ int main(){
 	 	//![Velocity vector's direction]
 
 	 	//![Acceleration projection in radial and transversal directions]
-	  	//cout << "-----------------------------------------------------" << endl;
-  	  	//cout << "Dot product using a.dot(v)" << endl;
+	  	cout << "-----------------------------------------------------" << endl;
+  	  	cout << "Dot product using a.dot(v)" << endl;
   	  	dot_tangencial = a.dot(v_unit_tangencial);
   	  	dot_radial = a.dot(v_unit_radial);
   	  	cout << "dot_tangencial" << "\t" << "dot_radial" << endl;
@@ -396,7 +395,7 @@ int main(){
   	  	cout << "-----------------------------------------------------" << endl;
   	  	cout << "Project acceleration onto velocity tangencial vector" << endl;
   	  	a_tangencial = dot_tangencial*v_unit_tangencial;
-  	  	//cout << "a_tangencial:" << "\t" << a_tangencial << endl;
+  	  	cout << "a_tangencial:" << "\t" << a_tangencial << endl;
   	
   	  	//cout << "Project acceleration onto velocity radial vector" << endl;
   	  	a_radial = dot_radial*v_unit_radial;
@@ -437,7 +436,7 @@ int main(){
 
   	  //![Drawing]
   	  //show the image with a point mark at the centroid
-	  //circle(frame,center,5,Scalar(0,240,255),-1); //BGR
+	  circle(frame,center,5,Scalar(0,240,255),-1); //BGR
   	
   	  //show the image with the displacement vector in x and y axis
   	  //r_x = Point (cx + dx , cy     );
@@ -446,19 +445,20 @@ int main(){
   	  //arrowedLine (frame, center, r_y, Scalar(0, 0, 255), 3, 8);
 
   	  //show the image with the velocity vector in x and y axis
-  	  //v_x = Point (cx + 0.10*vx, cy);
+  	  v_x = Point (cx + 0.10*vx, cy);
   	  //v_y = Point (cx,      cy + vy);
   	  //arrowedLine (frame, center, v_x, Scalar(0, 255, 0), 3, 8);
   	  //arrowedLine (frame, center, v_y, Scalar(0, 255, 0), 3, 8);
 
   	  //show the image with tangencial and radial vectors (scaled)
-  	  //a_t = Point (100*v_unit_tangencial);
-  	  //a_r = Point (100*v_unit_radial);
+  	  a_t = Point (100*v_unit_tangencial);
+  	  a_r = Point (100*v_unit_radial);
   	  //arrowedLine (frame, center, center + a_t, Scalar(0, 0, 255), 3, 8);
   	  //arrowedLine (frame, center, center + a_r, Scalar(255, 0, 0), 3, 8);
+  	  
   	  //Draw the cartesian lines  
 	  line (frame, center, P0, Scalar(255, 0, 0), 1, 8, 0);
-	  Mat drawing = Mat::zeros(frame.size(), CV_8UC3);
+	  //Mat drawing = Mat::zeros(frame.size(), CV_8UC3);
 	  //ellipse(drawing, Point (100, 100), Size (50, 50), 90, 0, 50*theta, Scalar(180, 180, 180), 1, 8, 0);
 
 	  /*arrowedLine (frame, center, Point (cx, cy + 0.01*g[1]), Scalar(255, 255, 255), 3, 8);
@@ -468,6 +468,7 @@ int main(){
 
   	  //![write information to a file]
   	  outputfile << i << "\t" << theta << "\t" << acos (v_unit_radial[1])*180.0 / PI << "\n";
+  	  imshow("frame", frame);
   	  video.write(frame);
   	  //![write information to a file]
 

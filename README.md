@@ -31,3 +31,4 @@ What's happening here?
 Watch the video:
 
 [![Watch the video](http://www.cdfis.ufpr.br/portal/wp-content/uploads/2017/08/fibra-branco.jpg)](https://youtu.be/uV2xElP7mIY)
+[![Watch my second video](http://www.cdfis.ufpr.br/portal/wp-content/uploads/2017/08/fibra-branco.jpg)](https://youtu.be/b3sDeiZpKtA)

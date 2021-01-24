@@ -20,13 +20,9 @@ What I got so far:
 |------------|-------------| 
 |<img src="x_y_oneshot" width="400"> | <img src="x_t_oneshot" width="400">|
 
-| Vx is also periodical and the same | Acceleration by finite element's calculation |
+| Vx is also periodical and the same | Acceleration error |
 |------------|-------------| 
 |<img src="vx_t_multipleshots" width="400"> | <img src="acceleration x axis" width="400">|
-
-What's happening here?
-
-<img src="a_t and a_r" width="500">
 
 Watch the video:
 

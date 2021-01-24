@@ -24,6 +24,11 @@ What I got so far:
 |------------|-------------| 
 |<img src="vx_t_multipleshots" width="400"> | <img src="acceleration x axis" width="400">|
 
+| Forces | Vectors |
+|------------|-------------| 
+|<img src="Pendulo-Fvatan.gif" width="400"> | <img src="Pendulo-vatan.gif" width="400">|
+
+
 Watch the video:
 
 [![Watch my first video](http://www.cdfis.ufpr.br/portal/wp-content/uploads/2017/08/fibra-branco.jpg)](https://youtu.be/uV2xElP7mIY)

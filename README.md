@@ -1,4 +1,4 @@
-# pendulum-opencv
+# pendulumtracker
 Script to detect and track a real simple pendulum's motion in order to draw its main physical vectors (velocity, acceleration and so on).
 I'm writing a final work in Physics Teaching and the goal is to create an Augmented Reality that allows students and visitors to "see" physics vectors simultaneously with an experiment conducted in a science museum. OpenCV has good features for that and later I can wrap it in an Android SDK.
 What I got so far:

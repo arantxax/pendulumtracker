@@ -1,6 +1,10 @@
 # pendulumtracker
 Script to detect and track a real simple pendulum's motion in order to draw its main physical vectors (velocity, acceleration and so on).
 I'm writing a final work in Physics Teaching and the goal is to create an Augmented Reality that allows students and visitors to "see" physics vectors simultaneously with an experiment conducted in a science museum. OpenCV has good features for that and later I can wrap it in an Android SDK.
+| Forces | Vectors |
+|------------|-------------| 
+|<img src="Pendulo-Fvatan.gif" width="400"> | <img src="Pendulo-vatan.gif" width="400">|
+
 What I got so far:
 
 0. Installation in Linux (far straightforward);
@@ -23,10 +27,6 @@ What I got so far:
 | Vx is also periodical and the same | Acceleration error |
 |------------|-------------| 
 |<img src="vx_t_multipleshots" width="400"> | <img src="acceleration x axis" width="400">|
-
-| Forces | Vectors |
-|------------|-------------| 
-|<img src="Pendulo-Fvatan.gif" width="400"> | <img src="Pendulo-vatan.gif" width="400">|
 
 
 Watch the video:

@@ -23,11 +23,13 @@
 using namespace cv; 
 using namespace std;
 
+#define PI 3.14159265
 #define diameter 0.07625
+
 #define mass 1.4
 #define Length 2
+#define weight 15.5
 #define gravity 9.81
-#define PI 3.14159265
 
 Mat gray_blur(Mat image){
     Mat final_image;
@@ -204,8 +206,6 @@ int main(int argc, char** argv){
     << "x[2]" <<  "\t" << "Y[2]" 
     << "\t" <<  "vx" << "\t" << "vy" << "\t" 
     <<  "ax" << "\t" << "ay" <<  endl;
-    //"L_rope" << "\t" << "L_cp" << "\t" << "L_def" <<
-    //"\t" << "g_radial" <<  "\t"  << "g_def" << "\n";
     //![Initialize export to data file]
     
     //![Loop over all frames]
@@ -368,7 +368,6 @@ int main(int argc, char** argv){
             
             //Rope lenght (L)
             L = norm(radial)*scale; //NORM_L2
-            //cout << "L_rope = " << L << "\t" ;
             //outputfile << L <<  "\t" ;
             
             //Angle between rope and y axis
@@ -376,15 +375,9 @@ int main(int argc, char** argv){
             
             //L = v²/a_radial
             L = pow(norm(tangencial),2)/(norm(a_radial));
-            //cout << "L_cp = " << L << "\t" ;
-            //cout << "L_def = " << Length << endl;
-            //outputfile << L <<  "\t" << Length <<  "\t" ;
             
             //a_tangencial = gsen(theta)
             g = norm(a_radial)/sin(theta*PI/180);
-            //cout << "g_radial = " << g[0] << "\t" ;
-            //cout << "g_def = " << gravity << "\t" ;
-            //outputfile << g[0] <<  "\t"  << gravity << "\n";
             //![Vector analysis]
 
         }
@@ -399,13 +392,16 @@ int main(int argc, char** argv){
         circle(foreground,center,5,Scalar(0,240,255),-1); //BGR
         rectangle(foreground, track_window, Scalar (0,240,255),2);
         
-        //show the image with the velocity vector's result
-        Point velocity = Point (0.1*tangencial);
-        arrowedLine (frame, center, center + velocity, Scalar(255, 255, 255), 3, 8);
+        //Rescale before drawing
+        float scaled_cols = roi_width/frame_width;
         
         //show the image with tangencial acceleration's result
-        a_t = Point(0.1*a_tangencial);
+        a_t = Point(scaled_cols*a_tangencial);
         arrowedLine (frame, center, center + a_t, Scalar(0, 0, 255), 3, 8);
+        
+        //show the image with the velocity vector's result
+        Point velocity = Point (scaled_cols*tangencial);
+        arrowedLine (frame, center, center + velocity, Scalar(255, 255, 255), 3, 8);
         
         //get the frame number and write it on the current frame
         rectangle(frame, Point(10, 2), Point(200,20), Scalar(255,255,255), -1);

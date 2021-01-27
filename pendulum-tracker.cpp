@@ -56,12 +56,15 @@ int main(int argc, char** argv){
     int frame_width = static_cast<int>(capture.get(CAP_PROP_FRAME_WIDTH));
     int frame_height = static_cast<int>(capture.get(CAP_PROP_FRAME_HEIGHT));
     Size frame_size(frame_width, frame_height);
+    cout << "Frame size: " << frame_size << endl;
+    cout << "FPS: " << capture.get(CAP_PROP_FPS) << endl;
     //![Load source video]
     
     //![Declare variables to store the frames]
     Mat frame1, frame2, difframe;
     Mat canny_output, roi, hsv, hsv_roi, mask;
-    Mat frame, foreground, foregroundMask, background, dst;
+    Mat frame, foreground, foregroundMask, background, dst, extra;
+    extra = imread("Equation100x60.png");
     //![Declare variables to store the frames]
 
     //![Object Detection]
@@ -99,9 +102,11 @@ int main(int argc, char** argv){
         id = area > max_area ? i : id;
         max_area = max(max_area, area );
     }
+
     //Physical information in pixels
     Point center = centers[id];
     double scale = diameter/2*radius[id];
+    cout << "raio: " << radius[id] << endl;
     //![Object Detection]
     
     //![Setup ROI for tracking]
@@ -321,7 +326,7 @@ int main(int argc, char** argv){
         	
         	//What we have in hands: 	m_i and b_i
         	//What we want to determine:	y and x
-        	//MMQ method for this case: sum(y - m_i *x - b)² = 0
+        	//MMQ method for this case: sum(y - m_i *x - b)^2 = 0
         	sum_m += m;
         	sum_b += b;
         	sum_m2 += m*m;
@@ -373,7 +378,7 @@ int main(int argc, char** argv){
             //Angle between rope and y axis
             theta = acos ( radial_unit.dot(y_axis)  / norm(y_axis)*norm(radial_unit)) *180.0 / PI;
             
-            //L = v²/a_radial
+            //L = v^2/a_radial
             L = pow(norm(tangencial),2)/(norm(a_radial));
             
             //a_tangencial = gsen(theta)
@@ -410,6 +415,9 @@ int main(int argc, char** argv){
         video.write(frame);
         
         //show pendulum's period equation
+        Rect board(Point(10, 20), Size(extra.size()));
+        Mat dst = frame(board);
+        extra.copyTo(dst);
         //rectangle(frame, Point(10, 20), Point(200,150), Scalar(255,255,255), -1);
 
         imshow("frame", frame);

@@ -314,7 +314,7 @@ int main(int argc, char** argv){
         	//![write information to a file]
         	//<< format("%9.4f", elapsed_time) <<  "\t"  <<  format("%9.4f", dt) << "\t" 
         	outputfile << format("%9.4f", elapsed_time) << "\t" << format("%9.4f", dt) 
-        	<< "\t"  << X[2] <<  "\t" << Y[2] 
+        	<< "\t"  << X[size/2] <<  "\t" << Y[size/2] 
         	<< "\t" <<  vx << "\t" << vy 
         	<< "\t" <<  ax << "\t" << ay <<  endl;
         	//![write information to a file]  
@@ -323,7 +323,7 @@ int main(int argc, char** argv){
         	//We would like to determine the joint point using MMQ
         	//We do know the velocity's orientation, which is tangencial to the circular path
         	//Then the circle's radius is perpendicular to the velocity
-        	m = - vx/ vy;			//perpendicular slope
+        	m = - 1/(vy/ vx);			//perpendicular slope
         	b = Y[size/2] - m*X[size/2];	//intercept
         	
         	//What we have in hands: 	m_i and b_i

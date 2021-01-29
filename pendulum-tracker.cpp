@@ -56,8 +56,9 @@ int main(int argc, char** argv){
     int frame_width = static_cast<int>(capture.get(CAP_PROP_FRAME_WIDTH));
     int frame_height = static_cast<int>(capture.get(CAP_PROP_FRAME_HEIGHT));
     Size frame_size(frame_width, frame_height);
+    double fps = capture.get(CAP_PROP_FPS);
     cout << "Frame size: " << frame_size << endl;
-    cout << "FPS: " << capture.get(CAP_PROP_FPS) << endl;
+    cout << "FPS: " << fps << endl;
     //![Load source video]
     
     //![Declare variables to store the frames]
@@ -152,7 +153,7 @@ int main(int argc, char** argv){
     double elapsed_time = 0.0;
     
     //position
-    int size = 4; //by default
+    int size = 2; //by default
     vector<float> X(size), Y(size);
     double dx = 0.0, dy = 0.0;
     
@@ -201,7 +202,7 @@ int main(int argc, char** argv){
     //![Declare entities to draw]
     
     //![Initialize Videowriter]
-    VideoWriter video("./centered2criteria3.avi", VideoWriter::fourcc('M','J','P','G'), 10, frame_size, true);
+    VideoWriter video("./output.avi", VideoWriter::fourcc('M','J','P','G'), fps, frame_size, true);
     //![Initialize Videowriter]
 
     //![Initialize export to data file]
@@ -259,6 +260,7 @@ int main(int argc, char** argv){
         roi_width = (double) track_window.width;
         roi_height = (double) track_window.height;
         //![Meanshift tracking]
+        
         
         //![Physics]
         //![Elapsed time]
@@ -394,7 +396,7 @@ int main(int argc, char** argv){
         //![Drawing]
         //show the image with a point mark at the centroid
         center = Point (xmin + roi_width/2, ymin + roi_height/2);
-        circle(foreground,center,5,Scalar(0,240,255),-1); //BGR
+        //circle(foreground,center,5,Scalar(0,240,255),-1); //BGR
         rectangle(foreground, track_window, Scalar (0,240,255),2);
         
         //Rescale before drawing

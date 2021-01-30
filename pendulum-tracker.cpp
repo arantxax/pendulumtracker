@@ -27,9 +27,8 @@ using namespace std;
 #define diameter 0.07625
 
 #define mass 1.4
-#define Length 2
 #define weight 15.5
-#define gravity 9.81
+#define gravity 9.78760
 
 Mat gray_blur(Mat image){
     Mat final_image;
@@ -106,7 +105,7 @@ int main(int argc, char** argv){
 
     //Physical information in pixels
     Point center = centers[id];
-    double scale = diameter/2*radius[id];
+    double scale = diameter/(2*radius[id]);
     cout << "raio: " << radius[id] << endl;
     //![Object Detection]
     
@@ -140,7 +139,7 @@ int main(int argc, char** argv){
     //![General handling] 
     int nFrame = 0;
     int i = 0; //general counter
-    int criteria = 3; //by default
+    int criteria = 2; //2 by default
     //![General handling]
     
     //![Declare Physics' variables]    
@@ -153,9 +152,8 @@ int main(int argc, char** argv){
     double elapsed_time = 0.0;
     
     //position
-    int size = 2; //by default
+    int size = 3; //3 by default
     vector<float> X(size), Y(size);
-    double dx = 0.0, dy = 0.0;
     
     //velocity
     double vx = 0.0;
@@ -176,7 +174,8 @@ int main(int argc, char** argv){
     Vec2d tangencial_unit {0.0, 0.0};
     Vec2d radial_unit {0.0, 0.0};
     Vec2d a {0.0, 0.0};
-    Vec2d g {0.0,0.0};
+    Vec2d Tm {0.0,0.0};
+    Vec2d g {0.0,gravity};
     Vec2d a_radial {0.0, 0.0};
     Vec2d a_tangencial {0.0, 0.0};
     Vec2d y_axis {0,1};
@@ -202,16 +201,19 @@ int main(int argc, char** argv){
     //![Declare entities to draw]
     
     //![Initialize Videowriter]
-    VideoWriter video("./output.avi", VideoWriter::fourcc('M','J','P','G'), fps, frame_size, true);
+    VideoWriter video("./radialtangc1c2.avi", VideoWriter::fourcc('M','J','P','G'), fps, frame_size, true);
     //![Initialize Videowriter]
 
     //![Initialize export to data file]
     ofstream outputfile;
-    outputfile.open ("centered2criteria3.dat");
-    outputfile << "t" << "\t" << "dt" << "\t"
-    << "x[2]" <<  "\t" << "Y[2]" 
-    << "\t" <<  "vx" << "\t" << "vy" << "\t" 
-    <<  "ax" << "\t" << "ay" <<  endl;
+    outputfile.open ("radialtangc1c2.dat");
+    outputfile << "t" << "\t" //<< "dt" << "\t" << "nFrame" << "\t"
+/*    << "x[1]" <<  "\t" << "Y[1]"  << "\t" 
+    <<  "vx" << "\t" << "vy" << "\t" 
+    <<  "ax" << "\t" << "ay" <<  "\t"
+    << "L_rope" << "\t" << "L_cp" << "\t"
+    << "theta_y" << "\t" << "theta_EDO" << endl;
+*/  << "a_radial" << "\t" << "a_tang" << endl;  
     //![Initialize export to data file]
     
     //![Loop over all frames]
@@ -259,17 +261,17 @@ int main(int argc, char** argv){
         ymin = (double) track_window.y;
         roi_width = (double) track_window.width;
         roi_height = (double) track_window.height;
-        //![Meanshift tracking]
-        
-        
-        //![Physics]
-        //![Elapsed time]
-        elapsed_time = (double) (getTickCount() - start) *1.0f/ getTickFrequency(); //general time
-        cout << "\nelapsed time: " << format("%9.4f s", elapsed_time) << endl;
-        //![Elapsed time]        
+        //![Meanshift tracking]    
               
         if (nFrame % criteria == 0){ //throw away adjacent frames
-            cout << "current frame is: " << nFrame << endl;
+             cout << "current frame is: " << nFrame << endl;
+            //![Physics]
+            //![Elapsed time]
+            //general time counting
+            elapsed_time = (double) (getTickCount() - start) *1.0f/ getTickFrequency();
+            cout << "\nelapsed time: " << format("%9.4f s", elapsed_time) << endl;
+            //![Elapsed time]
+            
             //![Position]
             X[i] = xmin + roi_width/2;
             Y[i] = ymin + roi_height/2;
@@ -282,9 +284,9 @@ int main(int argc, char** argv){
             //![Elapsed time]
             
             //Enough data to proceed further calculation
-            if (i == size){ //full vector        
-            	
-            	if (size == 4){
+            if (i == size-1){ //full vector        
+
+            	if (size == 5){
             	    //five points centered at i=2
             	    //![Velocity]
             	    vx = (1*X[0] - 8*X[1] + 0*X[2] + 8*X[3] - 1*X[4])*scale/(12*dt);
@@ -297,7 +299,7 @@ int main(int argc, char** argv){
             	    ay = (-Y[0] + 16*Y[1] - 30*Y[2] + 16*Y[3] - Y[4])*scale/(12*dt*dt);
             	    //![Acceleration]
             	}
-            	if (size == 2){
+            	if (size == 3){
             	   //three points centered at i=1
             	   //![Velocity]
             	   vx= (-1*X[0]+0*X[1]+1*X[2])*scale/(2*dt);
@@ -312,33 +314,34 @@ int main(int argc, char** argv){
         	//![Physics]
         	
         	//![write information to a file]
-        	//<< format("%9.4f", elapsed_time) <<  "\t"  <<  format("%9.4f", dt) << "\t" 
-        	outputfile << format("%9.4f", elapsed_time) << "\t" << format("%9.4f", dt) 
+/*        	outputfile <<
+        	format("%9.4f", elapsed_time) << "\t" << format("%9.4f", dt) << "\t" << nFrame
         	<< "\t"  << X[size/2] <<  "\t" << Y[size/2] 
         	<< "\t" <<  vx << "\t" << vy 
         	<< "\t" <<  ax << "\t" << ay <<  endl;
-        	//![write information to a file]  
+*/        	//![write information to a file]  
         	    	
         	//![Cartesian Line]
         	//We would like to determine the joint point using MMQ
         	//We do know the velocity's orientation, which is tangencial to the circular path
         	//Then the circle's radius is perpendicular to the velocity
-        	m = - 1/(vy/ vx);			//perpendicular slope
+        	m = - 1/ (vy/vx);	        //perpendicular slope
         	b = Y[size/2] - m*X[size/2];	//intercept
         	
         	//What we have in hands: 	m_i and b_i
         	//What we want to determine:	y and x
         	//MMQ method for this case: sum(y - m_i *x - b)^2 = 0
-        	sum_m += m;
-        	sum_b += b;
-        	sum_m2 += m*m;
-        	sum_mb += m*b;
-        	sum2_m += sum_m*sum_m;
+        	sum_m =+ m;
+        	sum_b =+ b;
+        	sum_m2 =+ m*m;
+        	sum_mb =+ m*b;
+        	sum2_m =+ sum_m*sum_m;
         	N++;  
         	//![Cartesian Line]
         	
+        	
         	//![Joint point]
-        	if (N>0 && sum_m2 - sum2_m != 0 ){
+        	if (N * sum_m2 - sum2_m != 0 ){
         	   x0 = -(N*sum_mb     - sum_m*sum_b)  / (N * sum_m2 - sum2_m);
         	   y0 =  (sum_m2*sum_b - sum_mb*sum_m) / (N * sum_m2 - sum2_m);
         	   p0 = Point (x0, y0);
@@ -346,12 +349,12 @@ int main(int argc, char** argv){
         	//![Joint point]
         	
         	//![Data's update]
-        	for (int n=0; n<size; n++){
+        	for (int n=0; n < size-1; n++){
             		X[n]=X[n+1];
             		Y[n]=Y[n+1];
         	}
         	//reset to last index and overwrite content
-        	i = size-1;        	
+        	i = size-2;      	
             }
             i++;
             //![Data's update]
@@ -359,7 +362,7 @@ int main(int argc, char** argv){
             //![Vector analysis]      	
             //tangencial and radial directions
             tangencial = {vx, vy};
-            radial = {center.x-x0, center.y-y0};
+            radial = {center.x-x0, center.y-y0}; //radial has an error due to P0
             if (norm(tangencial)!=0 && norm(radial)!=0){ //avoid division by zero
             	tangencial_unit = tangencial/norm(tangencial); //NORM_L2
             	radial_unit = radial/norm(radial);   //NORM_L2
@@ -371,21 +374,27 @@ int main(int argc, char** argv){
             	a = {ax, ay};
             	a_tangencial = a.dot(tangencial_unit) * tangencial_unit;
             	a_radial     = a.dot(radial_unit)     * radial_unit;
-            }       
+            	
+            	//Tension/m = gcos(theta) + a_radial
+                Tm = g.dot(radial_unit)*radial_unit + a_radial;
+
+            }
+            //![Vector analysis]   
             
-            //Rope lenght (L)
-            L = norm(radial)*scale; //NORM_L2
-            //outputfile << L <<  "\t" ;
-            
-            //Angle between rope and y axis
-            theta = acos ( radial_unit.dot(y_axis)  / norm(y_axis)*norm(radial_unit)) *180.0 / PI;
-            
-            //L = v^2/a_radial
-            L = pow(norm(tangencial),2)/(norm(a_radial));
-            
-            //a_tangencial = gsen(theta)
-            g = norm(a_radial)/sin(theta*PI/180);
-            //![Vector analysis]
+		//![write information to a file]
+		outputfile << format("%9.4f", elapsed_time) << "\t" 
+/*               //Rope lenght (L) NORM_L2
+               << norm(radial)*scale << "\t"
+               //Rope lenght (L) v^2/a_radial
+               << pow(norm(tangencial),2)/(norm(a_radial)) << "\t";
+               //Rope lenght (L) period = 2*pi*sqrt(L/g) = 2.02 s
+               L = gravity*pow(2.02,2)/(2*PI);
+               //Theta angle (theta) Angle between rope and y axis
+               outputfile  << acos(radial_unit.dot(y_axis)/norm(y_axis)*norm(radial_unit))*180.0/PI 
+               //Theta angle (theta) 2º order EDO: a_tangencial = - omega^2 * theta = - g/L * theta
+               << "\t" << L*norm(a_tangencial)/gravity*180.0/PI << endl;
+*/             << norm (a_radial) << "\t" << norm (a_tangencial) << endl;
+              //![write information to a file] 
 
         }
         nFrame++;
@@ -400,15 +409,17 @@ int main(int argc, char** argv){
         rectangle(foreground, track_window, Scalar (0,240,255),2);
         
         //Rescale before drawing
-        float scaled_cols = roi_width/frame_width;
-        
-        //show the image with tangencial acceleration's result
-        a_t = Point(scaled_cols*a_tangencial);
-        arrowedLine (frame, center, center + a_t, Scalar(0, 0, 255), 3, 8);
+        float scaled_cols = roi_width/frame_width * (1/scale);
         
         //show the image with the velocity vector's result
-        Point velocity = Point (scaled_cols*tangencial);
+        Point velocity = Point (tangencial*scaled_cols);
         arrowedLine (frame, center, center + velocity, Scalar(255, 255, 255), 3, 8);
+        
+        //show the image with tangencial acceleration's result
+        a_t = Point(a_tangencial*scaled_cols);
+        a_r = Point (a_radial*scaled_cols);
+        arrowedLine (frame, center, center + a_t, Scalar(0, 0, 255), 3, 8);
+        arrowedLine (frame, center, center + a_r, Scalar(0, 255, 0), 3, 8);
         
         //get the frame number and write it on the current frame
         rectangle(frame, Point(10, 2), Point(200,20), Scalar(255,255,255), -1);
@@ -421,10 +432,25 @@ int main(int argc, char** argv){
         Mat dst = frame(board);
         extra.copyTo(dst);
         //rectangle(frame, Point(10, 20), Point(200,150), Scalar(255,255,255), -1);
+        
+/*        //show miniaturized joint point, rope and angle
+        rectangle(frame, Point(10, 20), Point(200,150), Scalar(255,255,255), -1);
+        line (frame, Point (80,20), Point (80,20) + Point(100*radial_unit),
+        Scalar(0, 255, 0), 2, LINE_AA, 0);
+        line (frame, Point (80,20), Point (80,150), Scalar(0, 0, 0), 1, LINE_AA, 0);
+        if (radial_unit[0]<0){
+        	ellipse (frame, Point (80,20), Size(50,50), 90, 0, 
+        	-gravity*norm(a_tangencial)/L*180.0/PI,
+        	Scalar(0, 255, 0), 1, LINE_8, 0) ;
+        }else{
+        	ellipse (frame, Point (80,20), Size(50,50), 90, 0, 
+        	gravity*norm(a_tangencial)/L*180.0/PI,
+        	Scalar(0, 255, 0), 1, LINE_8, 0) ;
+        }*/
 
-        imshow("frame", frame);
         imshow("foreground mask", foregroundMask);
         imshow("foreground image", foreground);
+        imshow("frame", frame);
         int keyboard = waitKey(30); 
         if (keyboard == 'q' || keyboard == 27)
             break;

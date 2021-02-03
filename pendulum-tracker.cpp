@@ -344,7 +344,12 @@ int main(int argc, char** argv){
         	if (N * sum_m2 - sum2_m != 0 ){
         	   x0 = -(N*sum_mb     - sum_m*sum_b)  / (N * sum_m2 - sum2_m);
         	   y0 =  (sum_m2*sum_b - sum_mb*sum_m) / (N * sum_m2 - sum2_m);
-        	   p0 = Point (x0, y0);
+		   if (x0 == x0 || y0 == y0){//facts and figures of NaN
+			p0 = Point (x0, y0);
+		   }
+		   else{
+			   p0 = Point (X[size/2),0);
+		    }
         	}
         	//![Joint point]
         	
@@ -362,7 +367,7 @@ int main(int argc, char** argv){
             //![Vector analysis]      	
             //tangencial and radial directions
             tangencial = {vx, vy};
-            radial = {center.x-x0, center.y-y0}; //radial has an error due to P0
+            radial = {center.x-p0.x, center.y-p0.y}; //radial has an error due to P0
             if (norm(tangencial)!=0 && norm(radial)!=0){ //avoid division by zero
             	tangencial_unit = tangencial/norm(tangencial); //NORM_L2
             	radial_unit = radial/norm(radial);   //NORM_L2

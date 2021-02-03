@@ -387,6 +387,12 @@ int main(int argc, char** argv){
             	
             	//Tension/m = gcos(theta) + a_radial
                 Tm = g.dot(radial_unit)*radial_unit + a_radial;
+                
+                //Tension/m = gcos(theta) + v^2/L
+                L = pow(norm(tangencial),2)/(norm(a_radial)) ;
+                theta = acos(radial_unit.dot(y_axis)/norm(y_axis)*norm(radial_unit));
+                Tm = norm(tangencial)/L + gravity*cos(theta);
+                
 
             }
             //![Vector analysis]   
@@ -429,7 +435,7 @@ int main(int argc, char** argv){
         a_t = Point(a_tangencial*scaled_cols);
         a_r = Point (a_radial*scaled_cols);
         arrowedLine (frame, center, center + a_t, Scalar(0, 0, 255), 3, 8);
-        arrowedLine (frame, center, center + a_r, Scalar(0, 255, 0), 3, 8);
+        //arrowedLine (frame, center, center + a_r, Scalar(0, 255, 0), 3, 8);
         
         //get the frame number and write it on the current frame
         rectangle(frame, Point(10, 2), Point(200,20), Scalar(255,255,255), -1);
@@ -437,11 +443,17 @@ int main(int argc, char** argv){
         putText(frame, label, Point(15, 15),FONT_HERSHEY_SIMPLEX, 0.5 , Scalar(0,0,0));
         video.write(frame);
         
+        //Show label
+        rectangle(frame, Point(frame_width/2, 10), Point(frame_width,50), Scalar(120,120,120), -1);
+        circle(frame,Point (frame_width/2+10,20), 5,Scalar(255,255,255),-1); //BGR
+        putText(frame, "Velocidade", Point(frame_width/2+20, 25),FONT_HERSHEY_SIMPLEX, 0.5 , Scalar(255,255,255));
+        circle(frame, Point (frame_width/2+10,40),5,Scalar(0,0,255),-1); //BGR
+        putText(frame, "Aceleracao restauradora", Point(frame_width/2+20, 45),FONT_HERSHEY_SIMPLEX, 0.5 , Scalar(0,0,255));
+        
         //show pendulum's period equation
         Rect board(Point(10, 20), Size(extra.size()));
         Mat dst = frame(board);
         extra.copyTo(dst);
-        //rectangle(frame, Point(10, 20), Point(200,150), Scalar(255,255,255), -1);
         
 /*        //show miniaturized joint point, rope and angle
         rectangle(frame, Point(10, 20), Point(200,150), Scalar(255,255,255), -1);

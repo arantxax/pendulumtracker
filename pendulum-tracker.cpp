@@ -2,7 +2,7 @@
 @file pendulum-tracker.cpp (Pendulumv30's child)
 @brief An attempt to recognize and to track a generic moving object, and then save its temporal position.
 @author arantxax
-@date Jan 24, 2020
+@date Feb 03, 2020
 */
  
 #include "opencv2/highgui/highgui.hpp" 
@@ -201,20 +201,20 @@ int main(int argc, char** argv){
     //![Declare entities to draw]
     
     //![Initialize Videowriter]
-    VideoWriter video("./radialtangc1c2.avi", VideoWriter::fourcc('M','J','P','G'), fps, frame_size, true);
+    VideoWriter video("./output.avi", VideoWriter::fourcc('M','J','P','G'), fps, frame_size, true);
     //![Initialize Videowriter]
 
     //![Initialize export to data file]
     ofstream outputfile;
-    outputfile.open ("radialtangc1c2.dat");
+    outputfile.open ("output.dat");
     outputfile << "t" << "\t" //<< "dt" << "\t" << "nFrame" << "\t"
-/*    << "x[1]" <<  "\t" << "Y[1]"  << "\t" 
+    << "x[size/2]" <<  "\t" << "Y[size/2]"  << "\t" 
     <<  "vx" << "\t" << "vy" << "\t" 
-    <<  "ax" << "\t" << "ay" <<  "\t"
-    << "L_rope" << "\t" << "L_cp" << "\t"
+    <<  "ax" << "\t" << "ay" <<  endl;
+/*    << "L_rope" << "\t" << "L_cp" << "\t"
     << "theta_y" << "\t" << "theta_EDO" << endl;
-*/  << "a_radial" << "\t" << "a_tang" << endl;  
-    //![Initialize export to data file]
+   << "a_radial" << "\t" << "a_tang" << endl;  
+*/    //![Initialize export to data file]
     
     //![Loop over all frames]
     while (true)
@@ -314,12 +314,12 @@ int main(int argc, char** argv){
         	//![Physics]
         	
         	//![write information to a file]
-/*        	outputfile <<
-        	format("%9.4f", elapsed_time) << "\t" << format("%9.4f", dt) << "\t" << nFrame
+        	outputfile <<
+        	format("%9.4f", elapsed_time) //<< "\t" << format("%9.4f", dt) << "\t" << nFrame
         	<< "\t"  << X[size/2] <<  "\t" << Y[size/2] 
         	<< "\t" <<  vx << "\t" << vy 
         	<< "\t" <<  ax << "\t" << ay <<  endl;
-*/        	//![write information to a file]  
+        	//![write information to a file]  
         	    	
         	//![Cartesian Line]
         	//We would like to determine the joint point using MMQ
@@ -344,12 +344,12 @@ int main(int argc, char** argv){
         	if (N * sum_m2 - sum2_m != 0 ){
         	   x0 = -(N*sum_mb     - sum_m*sum_b)  / (N * sum_m2 - sum2_m);
         	   y0 =  (sum_m2*sum_b - sum_mb*sum_m) / (N * sum_m2 - sum2_m);
-		   if (x0 == x0 || y0 == y0){//facts and figures of NaN
-			p0 = Point (x0, y0);
-		   }
-		   else{
-			   p0 = Point (X[size/2),0);
-		    }
+        	   if (x0 == x0 || y0 == y0){//Nan interesting facts
+        	   	p0 = Point (x0, y0);
+        	   }
+        	   else{
+        	   	p0 = Point (X[size/2], 0);
+        	   }
         	}
         	//![Joint point]
         	
@@ -367,7 +367,8 @@ int main(int argc, char** argv){
             //![Vector analysis]      	
             //tangencial and radial directions
             tangencial = {vx, vy};
-            radial = {center.x-p0.x, center.y-p0.y}; //radial has an error due to P0
+            radial = {center.x-(double)p0.x, center.y-(double)p0.y};
+            cout << "radial " << radial << endl;
             if (norm(tangencial)!=0 && norm(radial)!=0){ //avoid division by zero
             	tangencial_unit = tangencial/norm(tangencial); //NORM_L2
             	radial_unit = radial/norm(radial);   //NORM_L2
@@ -379,6 +380,10 @@ int main(int argc, char** argv){
             	a = {ax, ay};
             	a_tangencial = a.dot(tangencial_unit) * tangencial_unit;
             	a_radial     = a.dot(radial_unit)     * radial_unit;
+            	cout << "Acceleration radial " << a_radial << endl;
+            	if (a_radial[1]>0){
+            		a_radial = {0, 0};
+            	}
             	
             	//Tension/m = gcos(theta) + a_radial
                 Tm = g.dot(radial_unit)*radial_unit + a_radial;
@@ -387,8 +392,8 @@ int main(int argc, char** argv){
             //![Vector analysis]   
             
 		//![write information to a file]
-		outputfile << format("%9.4f", elapsed_time) << "\t" 
-/*               //Rope lenght (L) NORM_L2
+/*		outputfile << format("%9.4f", elapsed_time) << "\t" 
+               //Rope lenght (L) NORM_L2
                << norm(radial)*scale << "\t"
                //Rope lenght (L) v^2/a_radial
                << pow(norm(tangencial),2)/(norm(a_radial)) << "\t";
@@ -396,10 +401,10 @@ int main(int argc, char** argv){
                L = gravity*pow(2.02,2)/(2*PI);
                //Theta angle (theta) Angle between rope and y axis
                outputfile  << acos(radial_unit.dot(y_axis)/norm(y_axis)*norm(radial_unit))*180.0/PI 
-               //Theta angle (theta) 2º order EDO: a_tangencial = - omega^2 * theta = - g/L * theta
+               //Theta angle (theta) 2th order EDO: a_tangencial = - omega^2 * theta = - g/L * theta
                << "\t" << L*norm(a_tangencial)/gravity*180.0/PI << endl;
-*/             << norm (a_radial) << "\t" << norm (a_tangencial) << endl;
-              //![write information to a file] 
+             << norm (a_radial) << "\t" << norm (a_tangencial) << endl;
+*/              //![write information to a file] 
 
         }
         nFrame++;

@@ -404,7 +404,7 @@ int main(int argc, char** argv){
                //Rope lenght (L) v^2/a_radial
                << pow(norm(tangencial),2)/(norm(a_radial)) << "\t";
                //Rope lenght (L) period = 2*pi*sqrt(L/g) = 2.02 s
-               L = gravity*pow(2.02,2)/(2*PI);
+               L = gravity*pow(2.02,2)/pow(2*PI,2);
                //Theta angle (theta) Angle between rope and y axis
                outputfile  << acos(radial_unit.dot(y_axis)/norm(y_axis)*norm(radial_unit))*180.0/PI 
                //Theta angle (theta) 2th order EDO: a_tangencial = - omega^2 * theta = - g/L * theta
